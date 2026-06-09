@@ -29,5 +29,8 @@ desktop.ini
 .vscode/
 .idea/
 
+# Documentación interna (NO se sube a GitHub)
+GUIA_INTERNA.md
+
 # NOTA: outputs/exports/ y outputs/figures/ SÍ se versionan
 # para que el repositorio se vea completo en GitHub.
