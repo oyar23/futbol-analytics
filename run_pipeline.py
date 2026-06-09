@@ -16,6 +16,7 @@ import config  # noqa: F401  (reconfigura stdout a UTF-8 en Windows)
 from src.etl import extract, load, transform
 from src.kpis import kpis
 from src.models import xg_model
+from src.scouting import scouting
 
 
 def run_etl(*, force: bool = False) -> None:
@@ -36,6 +37,11 @@ def run_xg_model() -> None:
     xg_model.run()
 
 
+def run_scouting() -> None:
+    """Paso 4: percentiles por posición + radares comparativos."""
+    scouting.run()
+
+
 def main() -> None:
     """Ejecuta el pipeline completo en orden."""
     print("=" * 60)
@@ -47,8 +53,9 @@ def main() -> None:
     run_kpis()
     # 3. Modelo de xG
     run_xg_model()
+    # 4. Scouting (percentiles + radares)
+    run_scouting()
     # Próximos módulos (se irán conectando):
-    # 4. Scouting
     # 5. Carga física (ACWR)
     print("\n✔ Pipeline finalizado.")
 

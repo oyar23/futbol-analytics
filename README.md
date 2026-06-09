@@ -66,7 +66,7 @@ Este README se irá completando a medida que se construyen los módulos:
 - [x] **Módulo 2** — ETL multifuente (StatsBomb → SQLite)
 - [x] **Módulo 3** — KPIs y dashboards
 - [x] **Módulo 4** — Modelo de goles esperados (xG)
-- [ ] **Módulo 5** — Scouting (percentiles + radares)
+- [x] **Módulo 5** — Scouting (percentiles + radares)
 - [ ] **Módulo 6** — Carga física y ACWR
 - [ ] **Módulo 7** — Orquestación + README final
 
@@ -129,6 +129,26 @@ resultado no depende de la geometría del tiro. Los **penales de tanda**
 
 **Salidas:** `outputs/exports/xg_model.joblib` (modelo entrenado) y
 `outputs/exports/xg_predicciones.csv` (xG predicho por tiro vs StatsBomb).
+
+---
+
+## 🔍 Scouting (percentiles por posición + radares)
+
+Se calculan métricas **por 90 minutos** para cada jugador y se obtienen
+**percentiles dentro de su grupo posicional** (GK / DEF / MID / FWD), sobre un
+pool de **345 jugadores** con al menos 180 minutos. La función
+`compare_players(player_a, player_b)` genera un radar comparativo entre dos
+jugadores de la misma posición.
+
+Métricas del radar: xG/90, tiros/90, pases clave/90, pases/90, % de pase
+completado, regates/90, recuperaciones/90 y acciones defensivas/90.
+
+| Mbappé vs Messi (FWD) | Modrić vs Bellingham (MID) |
+|:---:|:---:|
+| ![Radar Mbappé vs Messi](outputs/figures/radar_Kylian_Mbappé_Lottin_vs_Lionel_Andrés_Messi_Cucci.png) | ![Radar Modrić vs Bellingham](outputs/figures/radar_Luka_Modrić_vs_Jude_Bellingham.png) |
+
+**Salida:** `outputs/exports/scouting_percentiles.csv` y los radares en
+`outputs/figures/`.
 
 ---
 
