@@ -16,6 +16,7 @@ import config  # noqa: F401  (reconfigura stdout a UTF-8 en Windows)
 from src.etl import extract, load, transform
 from src.kpis import kpis
 from src.models import xg_model
+from src.physical import acwr
 from src.scouting import scouting
 
 
@@ -42,6 +43,11 @@ def run_scouting() -> None:
     scouting.run()
 
 
+def run_physical() -> None:
+    """Paso 5: carga física simulada + ACWR + alertas de riesgo."""
+    acwr.run()
+
+
 def main() -> None:
     """Ejecuta el pipeline completo en orden."""
     print("=" * 60)
@@ -55,8 +61,8 @@ def main() -> None:
     run_xg_model()
     # 4. Scouting (percentiles + radares)
     run_scouting()
-    # Próximos módulos (se irán conectando):
-    # 5. Carga física (ACWR)
+    # 5. Carga física simulada (ACWR + alertas)
+    run_physical()
     print("\n✔ Pipeline finalizado.")
 
 

@@ -1,0 +1,853 @@
+﻿player_name,team_name,date,acute_7d,chronic_28d,acwr,risk_zone
+Jordan Pickford,England,2022-11-21,554.3,362.4,1.53,Riesgo alto
+Gareth Frank Bale,Wales,2022-11-21,537.3,352.3,1.53,Riesgo alto
+Denzel Dumfries,Netherlands,2022-11-21,532.8,350.2,1.52,Riesgo alto
+Matthew Charles Turner,United States,2022-11-21,542.0,358.3,1.51,Riesgo alto
+Aziz Eraltay Behich,Australia,2022-11-22,541.0,358.1,1.51,Riesgo alto
+Aïssa Bilal Laïdouni,Tunisia,2022-11-22,557.3,368.2,1.51,Riesgo alto
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-22,542.1,353.9,1.53,Riesgo alto
+Manuel Neuer,Germany,2022-11-23,540.4,358.6,1.51,Riesgo alto
+Niklas Süle,Germany,2022-11-23,553.2,363.4,1.52,Riesgo alto
+Steven de Sousa Vitoria,Canada,2022-11-23,541.4,359.1,1.51,Riesgo alto
+Jhegson Sebastián Méndez Carabalí,Ecuador,2022-11-20,463.4,354.5,1.31,Precaución
+Michael Steveen Estrada Martínez,Ecuador,2022-11-20,451.5,341.2,1.32,Precaución
+Hernán Ismael Galíndez,Ecuador,2022-11-20,457.8,348.1,1.32,Precaución
+Piero Martín Hincapié Reyna,Ecuador,2022-11-20,456.1,347.2,1.31,Precaución
+Boualem Khoukhi,Qatar,2022-11-20,448.2,343.0,1.31,Precaución
+Homam Alamin Ahmed,Qatar,2022-11-20,454.9,340.5,1.34,Precaución
+Ismaïla Sarr,Senegal,2022-11-21,526.1,357.7,1.47,Precaución
+Memphis Depay,Netherlands,2022-11-21,455.1,339.0,1.34,Precaución
+Ángel Fabián Di María Hernández,Argentina,2022-11-21,447.6,335.7,1.33,Precaución
+Kylian Mbappé Lottin,France,2022-11-21,441.8,333.9,1.32,Precaución
+Adrien Rabiot,France,2022-11-21,477.2,345.3,1.38,Precaución
+Kamil Glik,Poland,2022-11-21,463.5,336.4,1.38,Precaución
+Christian Dannemann Eriksen,Denmark,2022-11-21,472.0,348.2,1.36,Precaución
+Ben Davies,Wales,2022-11-21,525.4,361.7,1.45,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-11-21,461.6,334.4,1.38,Precaución
+John Stones,England,2022-11-21,541.2,370.5,1.46,Precaución
+Aaron Mooy,Australia,2022-11-21,464.3,339.1,1.37,Precaución
+Nathan Aké,Netherlands,2022-11-21,504.7,361.9,1.39,Precaución
+Kieran Trippier,England,2022-11-21,505.2,356.5,1.42,Precaución
+Daley Blind,Netherlands,2022-11-21,532.7,360.2,1.48,Precaución
+Harry Maguire,England,2022-11-21,508.2,359.0,1.42,Precaución
+Timothy Weah,United States,2022-11-21,498.5,358.8,1.39,Precaución
+Luke Shaw,England,2022-11-21,527.3,356.9,1.48,Precaución
+Youssouf Sabaly,Senegal,2022-11-21,539.5,366.2,1.47,Precaución
+Idrissa Gana Gueye,Senegal,2022-11-21,502.4,348.9,1.44,Precaución
+Wayne Hennessey,Wales,2022-11-21,514.8,365.4,1.41,Precaución
+Aaron Ramsey,Wales,2022-11-21,503.8,352.4,1.43,Precaución
+Pierre-Emile Højbjerg,Denmark,2022-11-21,460.2,334.4,1.38,Precaución
+Olivier Giroud,France,2022-11-21,471.5,342.4,1.38,Precaución
+Grzegorz Krychowiak,Poland,2022-11-21,474.5,338.6,1.4,Precaución
+Virgil van Dijk,Netherlands,2022-11-21,543.0,363.5,1.49,Precaución
+Kasper Schmeichel,Denmark,2022-11-21,476.5,357.3,1.33,Precaución
+Kieffer Roberto Francisco Moore,Wales,2022-11-21,481.3,336.8,1.43,Precaución
+Declan Rice,England,2022-11-21,531.0,372.1,1.43,Precaución
+Andreas Christensen,Denmark,2022-11-21,470.4,337.8,1.39,Precaución
+Nampalys Mendy,Senegal,2022-11-21,501.7,353.2,1.42,Precaución
+Antonee Robinson,United States,2022-11-21,526.9,366.8,1.44,Precaución
+Matty Cash,Poland,2022-11-21,493.5,346.8,1.42,Precaución
+Chris Mepham,Wales,2022-11-21,519.7,374.4,1.39,Precaución
+Connor Roberts,Wales,2022-11-21,514.4,357.6,1.44,Precaución
+Ethan Ampadu,Wales,2022-11-21,513.3,364.9,1.41,Precaución
+Salem Mohammed Al Dawsari,Saudi Arabia,2022-11-21,437.3,326.5,1.34,Precaución
+Morteza Pouraliganji,Iran,2022-11-21,508.1,364.7,1.39,Precaución
+Sardar Azmoun,Iran,2022-11-21,443.7,335.7,1.32,Precaución
+Mehdi Taremi,Iran,2022-11-21,525.4,369.8,1.42,Precaución
+Seyed Majid Hosseini,Iran,2022-11-21,548.0,372.7,1.47,Precaución
+Ehsan Hajsafi,Iran,2022-11-21,508.8,353.1,1.44,Precaución
+Ousmane Dembélé,France,2022-11-21,437.4,332.8,1.31,Precaución
+Aziz Eraltay Behich,Australia,2022-11-21,471.6,336.9,1.4,Precaución
+Mathew Leckie,Australia,2022-11-21,432.8,331.5,1.31,Precaución
+Jackson Irvine,Australia,2022-11-21,437.3,325.7,1.34,Precaución
+Nicolás Alejandro Tagliafico,Argentina,2022-11-21,469.1,347.5,1.35,Precaución
+Edson Omar Álvarez Velázquez,Mexico,2022-11-21,479.2,349.5,1.37,Precaución
+Hirving Rodrigo Lozano Bahena,Mexico,2022-11-21,459.7,348.6,1.32,Precaución
+Héctor Alfredo Moreno Herrera,Mexico,2022-11-21,448.3,339.6,1.32,Precaución
+Piotr Zieliński,Poland,2022-11-21,442.6,326.3,1.36,Precaución
+Robert Lewandowski,Poland,2022-11-21,451.9,325.9,1.39,Precaución
+Wojciech Szczęsny,Poland,2022-11-21,436.2,325.2,1.34,Precaución
+Bartosz Bereszyński,Poland,2022-11-21,440.0,332.8,1.32,Precaución
+Kalidou Koulibaly,Senegal,2022-11-21,528.3,351.3,1.5,Precaución
+Mohammed Kanoo,Saudi Arabia,2022-11-21,431.3,329.3,1.31,Precaución
+Ali Albulayhi,Saudi Arabia,2022-11-21,450.0,336.0,1.34,Precaución
+Milad Mohammadi,Iran,2022-11-21,477.4,342.5,1.39,Precaución
+Saeid Ezatolahi Afagh,Iran,2022-11-21,472.0,355.1,1.33,Precaución
+Theo Bernard François Hernández,France,2022-11-21,485.2,357.0,1.36,Precaución
+Damián Emiliano Martínez,Argentina,2022-11-21,448.1,332.5,1.35,Precaución
+Edouard Mendy,Senegal,2022-11-21,528.9,353.8,1.49,Precaución
+Steven Berghuis,Netherlands,2022-11-21,464.0,337.4,1.38,Precaución
+Mason Mount,England,2022-11-21,480.4,340.9,1.41,Precaución
+Przemysław Frankowski,Poland,2022-11-21,463.4,333.3,1.39,Precaución
+Frenkie de Jong,Netherlands,2022-11-21,497.4,353.6,1.41,Precaución
+Kingsley Coman,France,2022-11-21,486.9,348.1,1.4,Precaución
+Christian Pulisic,United States,2022-11-21,517.0,353.7,1.46,Precaución
+Steven Bergwijn,Netherlands,2022-11-21,480.4,350.5,1.37,Precaución
+Andries Noppert,Netherlands,2022-11-21,519.5,349.6,1.49,Precaución
+Craig Goodwin,Australia,2022-11-21,473.9,339.7,1.4,Precaución
+Dayotchanculle Upamecano,France,2022-11-21,472.7,339.0,1.39,Precaución
+Weston McKennie,United States,2022-11-21,480.7,347.5,1.38,Precaución
+Abdou Diallo,Senegal,2022-11-21,459.5,337.5,1.36,Precaución
+Aurélien Djani Tchouaméni,France,2022-11-21,440.6,330.8,1.33,Precaución
+Harry Kane,England,2022-11-21,470.9,350.9,1.34,Precaución
+Ibrahima Konaté,France,2022-11-21,460.7,339.7,1.36,Precaución
+Joe Rodon,Wales,2022-11-21,553.9,377.6,1.47,Precaución
+Lautaro Javier Martínez,Argentina,2022-11-21,458.0,336.2,1.36,Precaución
+Krystian Bielik,Poland,2022-11-21,447.5,337.5,1.33,Precaución
+Youssouf Fofana,France,2022-11-21,461.4,341.7,1.35,Precaución
+Walker Zimmerman,United States,2022-11-21,532.1,361.9,1.47,Precaución
+Tyler Adams,United States,2022-11-21,514.6,365.1,1.41,Precaución
+Miloš Degenek,Australia,2022-11-21,485.3,347.9,1.39,Precaución
+Rasmus Nissen Kristensen,Denmark,2022-11-21,468.6,349.2,1.34,Precaución
+Leandro Daniel Paredes,Argentina,2022-11-21,490.9,339.8,1.44,Precaución
+Joakim Mæhle,Denmark,2022-11-21,444.9,330.3,1.35,Precaución
+Tim Ream,United States,2022-11-21,501.4,356.7,1.41,Precaución
+Cristian Gabriel Romero,Argentina,2022-11-21,466.5,347.3,1.34,Precaución
+Boulaye Dia,Senegal,2022-11-21,483.2,358.3,1.35,Precaución
+Cody Mathès Gakpo,Netherlands,2022-11-21,493.7,351.2,1.41,Precaución
+Krépin Diatta,Senegal,2022-11-21,492.7,344.9,1.43,Precaución
+Sergino Dest,United States,2022-11-21,509.1,351.2,1.45,Precaución
+Bukayo Saka,England,2022-11-21,512.4,353.6,1.45,Precaución
+Harry Souttar,Australia,2022-11-21,472.0,336.2,1.4,Precaución
+Jhegson Sebastián Méndez Carabalí,Ecuador,2022-11-21,491.1,361.5,1.36,Precaución
+Ernesto Alexis Vega Rojas,Mexico,2022-11-21,460.1,342.4,1.34,Precaución
+César Jasib Montes Castro,Mexico,2022-11-21,462.8,339.2,1.36,Precaución
+Jorge Eduardo Sánchez Ramos,Mexico,2022-11-21,473.8,337.9,1.4,Precaución
+Jesper Lindstrøm,Denmark,2022-11-21,427.8,327.5,1.31,Precaución
+Lisandro Martínez,Argentina,2022-11-21,458.9,346.3,1.33,Precaución
+Luis Gerardo Chávez Magallón,Mexico,2022-11-21,468.3,341.3,1.37,Precaución
+Nahuel Molina Lucero,Argentina,2022-11-21,464.5,329.5,1.41,Precaución
+Julián Álvarez,Argentina,2022-11-21,438.7,334.6,1.31,Precaución
+Felix Eduardo Torres Caicedo,Ecuador,2022-11-21,464.3,351.5,1.32,Precaución
+Ali Abdi,Tunisia,2022-11-21,439.2,336.2,1.31,Precaución
+Jude Bellingham,England,2022-11-21,532.6,365.4,1.46,Precaución
+Jakub Kamiński,Poland,2022-11-21,495.8,357.8,1.39,Precaución
+Montassar Omar Talbi,Tunisia,2022-11-21,465.4,345.2,1.35,Precaución
+Riley McGree,Australia,2022-11-21,487.7,343.4,1.42,Precaución
+Mitchell Thomas Duke,Australia,2022-11-21,480.6,338.9,1.42,Precaución
+Kye Rowles,Australia,2022-11-21,457.2,340.9,1.34,Precaución
+Michael Steveen Estrada Martínez,Ecuador,2022-11-21,474.9,347.0,1.37,Precaución
+Neco Williams,Wales,2022-11-21,487.3,352.8,1.38,Precaución
+Hernán Ismael Galíndez,Ecuador,2022-11-21,474.7,352.4,1.35,Precaución
+Moisés Isaac Caicedo Corozo,Ecuador,2022-11-21,461.2,351.9,1.31,Precaución
+Angelo Smit Preciado Quiñónez,Ecuador,2022-11-21,447.9,342.6,1.31,Precaución
+Piero Martín Hincapié Reyna,Ecuador,2022-11-21,483.6,354.1,1.37,Precaución
+Yunus Dimoara Musah,United States,2022-11-21,492.4,346.1,1.42,Precaución
+Akram Hassan Afif,Qatar,2022-11-21,461.0,346.4,1.33,Precaución
+Jakub Piotr Kiwior,Poland,2022-11-21,463.1,339.8,1.36,Precaución
+Aïssa Bilal Laïdouni,Tunisia,2022-11-21,507.5,351.1,1.45,Precaución
+Firas Tariq Nasser Al Albirakan,Saudi Arabia,2022-11-21,444.7,333.3,1.33,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-21,459.1,329.8,1.39,Precaución
+Saud Abdullah Abdul Hamid,Saudi Arabia,2022-11-21,436.8,316.9,1.38,Precaución
+Aymen Dahmen,Tunisia,2022-11-21,425.4,314.6,1.35,Precaución
+Ahmad Nourollahi,Iran,2022-11-21,482.0,353.4,1.36,Precaución
+Hassan Khalid Al Heidos,Qatar,2022-11-21,453.3,345.7,1.31,Precaución
+Karim Boudiaf,Qatar,2022-11-21,464.9,349.2,1.33,Precaución
+Boualem Khoukhi,Qatar,2022-11-21,470.0,348.5,1.35,Precaución
+Abdulaziz Hatem Mohammed Abdullah,Qatar,2022-11-21,456.5,348.1,1.31,Precaución
+Homam Alamin Ahmed,Qatar,2022-11-21,480.4,346.8,1.39,Precaución
+Seyed Hossein Hosseini,Iran,2022-11-21,511.1,352.7,1.45,Precaución
+Ismaïla Sarr,Senegal,2022-11-22,468.2,352.6,1.33,Precaución
+Ángel Fabián Di María Hernández,Argentina,2022-11-22,513.2,358.0,1.43,Precaución
+Kylian Mbappé Lottin,France,2022-11-22,514.8,355.1,1.45,Precaución
+Adrien Rabiot,France,2022-11-22,525.2,365.6,1.44,Precaución
+Kamil Glik,Poland,2022-11-22,531.8,358.8,1.48,Precaución
+Christian Dannemann Eriksen,Denmark,2022-11-22,534.6,371.7,1.44,Precaución
+Jan Vertonghen,Belgium,2022-11-22,443.3,335.5,1.32,Precaución
+Ben Davies,Wales,2022-11-22,489.8,357.3,1.37,Precaución
+Kevin De Bruyne,Belgium,2022-11-22,475.5,351.4,1.35,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-11-22,539.8,359.5,1.5,Precaución
+Hugo Lloris,France,2022-11-22,495.3,362.5,1.37,Precaución
+Antonio Rüdiger,Germany,2022-11-22,449.0,326.2,1.38,Precaución
+Thomas Meunier,Belgium,2022-11-22,432.7,330.8,1.31,Precaución
+Mathew Ryan,Australia,2022-11-22,485.8,357.7,1.36,Precaución
+John Stones,England,2022-11-22,502.2,367.0,1.37,Precaución
+Aaron Mooy,Australia,2022-11-22,517.1,363.9,1.42,Precaución
+Kieran Trippier,England,2022-11-22,469.9,354.5,1.33,Precaución
+Daley Blind,Netherlands,2022-11-22,481.8,355.7,1.35,Precaución
+Luke Shaw,England,2022-11-22,465.2,349.7,1.33,Precaución
+Youssouf Sabaly,Senegal,2022-11-22,503.2,362.1,1.39,Precaución
+Idrissa Gana Gueye,Senegal,2022-11-22,461.9,346.2,1.33,Precaución
+Nikola Vlašić,Croatia,2022-11-22,448.8,336.3,1.33,Precaución
+Jordan Pickford,England,2022-11-22,496.5,354.9,1.4,Precaución
+Dejan Lovren,Croatia,2022-11-22,424.7,322.7,1.32,Precaución
+Thibaut Courtois,Belgium,2022-11-22,447.8,338.2,1.32,Precaución
+Aaron Ramsey,Wales,2022-11-22,466.0,349.1,1.33,Precaución
+Pierre-Emile Højbjerg,Denmark,2022-11-22,514.9,356.9,1.44,Precaución
+Olivier Giroud,France,2022-11-22,513.4,361.1,1.42,Precaución
+Sofiane Boufal,Morocco,2022-11-22,455.5,332.9,1.37,Precaución
+Grzegorz Krychowiak,Poland,2022-11-22,524.8,360.2,1.46,Precaución
+Virgil van Dijk,Netherlands,2022-11-22,484.7,357.4,1.36,Precaución
+Ellyes Joris Skhiri,Tunisia,2022-11-22,507.9,369.6,1.37,Precaución
+Kasper Schmeichel,Denmark,2022-11-22,529.4,377.0,1.4,Precaución
+Kieffer Roberto Francisco Moore,Wales,2022-11-22,443.2,332.1,1.33,Precaución
+Andreas Christensen,Denmark,2022-11-22,521.8,358.9,1.45,Precaución
+Antonee Robinson,United States,2022-11-22,474.9,361.8,1.31,Precaución
+Matty Cash,Poland,2022-11-22,543.4,368.4,1.48,Precaución
+Connor Roberts,Wales,2022-11-22,482.2,354.6,1.36,Precaución
+Ethan Ampadu,Wales,2022-11-22,474.3,361.0,1.31,Precaución
+Salem Mohammed Al Dawsari,Saudi Arabia,2022-11-22,503.7,348.3,1.45,Precaución
+Sergio Busquets i Burgos,Spain,2022-11-22,468.0,344.7,1.36,Precaución
+Jordi Alba Ramos,Spain,2022-11-22,419.0,316.8,1.32,Precaución
+Romain Saïss,Morocco,2022-11-22,470.7,335.4,1.4,Precaución
+Seyed Majid Hosseini,Iran,2022-11-22,499.1,364.8,1.37,Precaución
+Ehsan Hajsafi,Iran,2022-11-22,465.5,347.1,1.34,Precaución
+Hakim Ziyech,Morocco,2022-11-22,444.0,339.0,1.31,Precaución
+Achraf Hakimi Mouh,Morocco,2022-11-22,471.2,331.6,1.42,Precaución
+Mateo Kovačić,Croatia,2022-11-22,468.4,349.7,1.34,Precaución
+Andrej Kramarić,Croatia,2022-11-22,473.2,341.0,1.39,Precaución
+Luka Modrić,Croatia,2022-11-22,458.6,345.9,1.33,Precaución
+Marcelo Brozović,Croatia,2022-11-22,443.8,334.1,1.33,Precaución
+Ousmane Dembélé,France,2022-11-22,483.8,347.7,1.39,Precaución
+Mathew Leckie,Australia,2022-11-22,486.7,352.6,1.38,Precaución
+Antoine Griezmann,France,2022-11-22,509.0,361.5,1.41,Precaución
+Jackson Irvine,Australia,2022-11-22,488.9,341.8,1.43,Precaución
+Lionel Andrés Messi Cuccittini,Argentina,2022-11-22,495.0,363.6,1.36,Precaución
+Nicolás Alejandro Tagliafico,Argentina,2022-11-22,504.3,361.9,1.39,Precaución
+Thomas Müller,Germany,2022-11-22,430.9,326.4,1.32,Precaución
+Edson Omar Álvarez Velázquez,Mexico,2022-11-22,532.2,369.5,1.44,Precaución
+Manuel Neuer,Germany,2022-11-22,480.0,335.6,1.43,Precaución
+Hirving Rodrigo Lozano Bahena,Mexico,2022-11-22,516.6,369.8,1.4,Precaución
+Héctor Alfredo Moreno Herrera,Mexico,2022-11-22,515.9,363.8,1.42,Precaución
+Jesús Daniel Gallardo Vasconcelos,Mexico,2022-11-22,511.9,366.0,1.4,Precaución
+Francisco Guillermo Ochoa Magaña,Mexico,2022-11-22,514.2,370.2,1.39,Precaución
+Joel Nathaniel Campbell Samuels,Costa Rica,2022-11-22,458.8,339.5,1.35,Precaución
+Keylor Navas Gamboa,Costa Rica,2022-11-22,478.3,340.3,1.41,Precaución
+Óscar Esau Duarte Gaitán,Costa Rica,2022-11-22,485.2,346.9,1.4,Precaución
+Francisco Javier Calvo Quesada,Costa Rica,2022-11-22,472.9,354.1,1.34,Precaución
+Axel Witsel,Belgium,2022-11-22,473.7,342.3,1.38,Precaución
+Yassine Meriah,Tunisia,2022-11-22,502.7,352.1,1.43,Precaución
+Piotr Zieliński,Poland,2022-11-22,497.5,346.2,1.44,Precaución
+Robert Lewandowski,Poland,2022-11-22,513.2,348.2,1.47,Precaución
+Wojciech Szczęsny,Poland,2022-11-22,502.3,348.2,1.44,Precaución
+Bartosz Bereszyński,Poland,2022-11-22,510.5,355.8,1.43,Precaución
+Kalidou Koulibaly,Senegal,2022-11-22,483.7,342.8,1.41,Precaución
+Yuto Nagatomo,Japan,2022-11-22,455.4,340.4,1.34,Precaución
+Mohammed Kanoo,Saudi Arabia,2022-11-22,509.7,353.9,1.44,Precaución
+Mohammed Khalil Al Owais,Saudi Arabia,2022-11-22,500.4,357.3,1.4,Precaución
+Ali Albulayhi,Saudi Arabia,2022-11-22,514.8,357.2,1.44,Precaución
+Marco Asensio Willemsen,Spain,2022-11-22,488.8,351.6,1.39,Precaución
+Yeltsin Ignacio Tejeda Valverde,Costa Rica,2022-11-22,474.8,351.5,1.35,Precaución
+Youssef En-Nesyri,Morocco,2022-11-22,485.1,346.9,1.4,Precaución
+Niklas Süle,Germany,2022-11-22,500.0,341.1,1.47,Precaución
+Kendall Jamaal Waston Manley,Costa Rica,2022-11-22,472.5,341.6,1.38,Precaución
+Gareth Frank Bale,Wales,2022-11-22,486.8,351.3,1.39,Precaución
+Theo Bernard François Hernández,France,2022-11-22,537.4,373.7,1.44,Precaución
+Ferrán Torres García,Spain,2022-11-22,458.6,347.0,1.32,Precaución
+Rodrigo Hernández Cascante,Spain,2022-11-22,439.4,331.1,1.33,Precaución
+Yassine Bounou,Morocco,2022-11-22,462.1,337.8,1.37,Precaución
+Damián Emiliano Martínez,Argentina,2022-11-22,523.4,357.0,1.47,Precaución
+Timothy Castagne,Belgium,2022-11-22,459.5,340.1,1.35,Precaución
+Edouard Mendy,Senegal,2022-11-22,477.6,346.0,1.38,Precaución
+Rodrigo Javier De Paul,Argentina,2022-11-22,492.2,356.8,1.38,Precaución
+Denzel Dumfries,Netherlands,2022-11-22,490.5,344.9,1.42,Precaución
+Christian Pulisic,United States,2022-11-22,471.3,349.5,1.35,Precaución
+Joachim Andersen,Denmark,2022-11-22,499.8,363.5,1.37,Precaución
+Andries Noppert,Netherlands,2022-11-22,474.1,345.0,1.37,Precaución
+Craig Goodwin,Australia,2022-11-22,510.2,355.9,1.43,Precaución
+Ritsu Doan,Japan,2022-11-22,452.3,346.0,1.31,Precaución
+Serge Gnabry,Germany,2022-11-22,451.5,336.6,1.34,Precaución
+Dayotchanculle Upamecano,France,2022-11-22,525.6,361.0,1.46,Precaución
+Takuma Asano,Japan,2022-11-22,472.0,341.4,1.38,Precaución
+Daichi Kamada,Japan,2022-11-22,462.3,340.2,1.36,Precaución
+Aurélien Djani Tchouaméni,France,2022-11-22,476.6,347.4,1.37,Precaución
+Ibrahima Konaté,France,2022-11-22,506.3,362.4,1.4,Precaución
+Joe Rodon,Wales,2022-11-22,497.3,370.5,1.34,Precaución
+Lautaro Javier Martínez,Argentina,2022-11-22,527.2,360.2,1.46,Precaución
+Mario Pašalić,Croatia,2022-11-22,460.4,335.6,1.37,Precaución
+Steven de Sousa Vitoria,Canada,2022-11-22,476.7,336.6,1.42,Precaución
+David Raum,Germany,2022-11-22,463.4,329.1,1.41,Precaución
+Matthew Charles Turner,United States,2022-11-22,491.0,353.6,1.39,Precaución
+Alphonso Davies,Canada,2022-11-22,465.1,348.1,1.34,Precaución
+Walker Zimmerman,United States,2022-11-22,467.9,353.6,1.32,Precaución
+Borna Sosa,Croatia,2022-11-22,472.0,347.5,1.36,Precaución
+Noussair Mazraoui,Morocco,2022-11-22,480.8,345.7,1.39,Precaución
+Milan Borjan,Canada,2022-11-22,455.3,326.2,1.4,Precaución
+Rasmus Nissen Kristensen,Denmark,2022-11-22,529.3,371.7,1.42,Precaución
+Leandro Daniel Paredes,Argentina,2022-11-22,507.2,347.6,1.46,Precaución
+Issam Jebali,Tunisia,2022-11-22,480.9,355.7,1.35,Precaución
+Mislav Oršić,Croatia,2022-11-22,448.3,334.6,1.34,Precaución
+Dominik Livaković,Croatia,2022-11-22,445.9,335.1,1.33,Precaución
+Daniel Olmo Carvajal,Spain,2022-11-22,452.4,344.9,1.31,Precaución
+Joakim Mæhle,Denmark,2022-11-22,510.9,351.1,1.46,Precaución
+Toby Alderweireld,Belgium,2022-11-22,457.7,347.9,1.32,Precaución
+Cristian Gabriel Romero,Argentina,2022-11-22,468.6,355.9,1.32,Precaución
+Sergino Dest,United States,2022-11-22,456.9,346.2,1.32,Precaución
+Marko Livaja,Croatia,2022-11-22,471.2,347.5,1.36,Precaución
+Bukayo Saka,England,2022-11-22,470.6,347.8,1.35,Precaución
+Harry Souttar,Australia,2022-11-22,523.5,358.6,1.46,Precaución
+Junya Ito,Japan,2022-11-22,455.0,340.1,1.34,Precaución
+Wataru Endo,Japan,2022-11-22,446.6,340.2,1.31,Precaución
+Takehiro Tomiyasu,Japan,2022-11-22,440.9,331.7,1.33,Precaución
+Selim Amallah,Morocco,2022-11-22,472.9,344.4,1.37,Precaución
+Kamal Miller,Canada,2022-11-22,461.5,346.4,1.33,Precaución
+Jhegson Sebastián Méndez Carabalí,Ecuador,2022-11-22,479.1,365.9,1.31,Precaución
+Shūichi Gonda,Japan,2022-11-22,446.2,322.9,1.38,Precaución
+Ernesto Alexis Vega Rojas,Mexico,2022-11-22,503.2,361.5,1.39,Precaución
+César Jasib Montes Castro,Mexico,2022-11-22,513.0,362.2,1.42,Precaución
+Jorge Eduardo Sánchez Ramos,Mexico,2022-11-22,527.4,360.8,1.46,Precaución
+Luis Gerardo Chávez Magallón,Mexico,2022-11-22,522.1,364.8,1.43,Precaución
+Josip Juranović,Croatia,2022-11-22,453.4,339.9,1.33,Precaución
+Nahuel Molina Lucero,Argentina,2022-11-22,525.5,354.5,1.48,Precaución
+Ko Itakura,Japan,2022-11-22,450.8,337.7,1.33,Precaución
+Pedro González López,Spain,2022-11-22,452.4,340.4,1.33,Precaución
+Daizen Maeda,Japan,2022-11-22,480.0,343.3,1.4,Precaución
+Ali Abdi,Tunisia,2022-11-22,489.6,357.9,1.37,Precaución
+Jude Bellingham,England,2022-11-22,490.2,359.9,1.36,Precaución
+Yahia Attiyat allah,Morocco,2022-11-22,444.7,334.4,1.33,Precaución
+Jakub Kamiński,Poland,2022-11-22,549.5,379.6,1.45,Precaución
+Montassar Omar Talbi,Tunisia,2022-11-22,530.6,368.0,1.44,Precaución
+Joško Gvardiol,Croatia,2022-11-22,466.3,345.0,1.35,Precaución
+Riley McGree,Australia,2022-11-22,515.1,356.6,1.44,Precaución
+Mitchell Thomas Duke,Australia,2022-11-22,482.3,346.1,1.39,Precaución
+Kye Rowles,Australia,2022-11-22,513.4,361.5,1.42,Precaución
+Kaoru Mitoma,Japan,2022-11-22,475.6,345.2,1.38,Precaución
+Hernán Ismael Galíndez,Ecuador,2022-11-22,480.9,360.6,1.33,Precaución
+Angelo Smit Preciado Quiñónez,Ecuador,2022-11-22,459.7,349.3,1.32,Precaución
+Piero Martín Hincapié Reyna,Ecuador,2022-11-22,492.0,361.3,1.36,Precaución
+Jamal Musiala,Germany,2022-11-22,470.0,341.9,1.37,Precaución
+Jakub Piotr Kiwior,Poland,2022-11-22,528.3,362.9,1.46,Precaución
+Alistair Johnston,Canada,2022-11-22,511.9,354.3,1.44,Precaución
+Firas Tariq Nasser Al Albirakan,Saudi Arabia,2022-11-22,500.8,352.0,1.42,Precaución
+Saleh Khalid Al Shehri,Saudi Arabia,2022-11-22,460.8,349.7,1.32,Precaución
+Saud Abdullah Abdul Hamid,Saudi Arabia,2022-11-22,505.9,340.5,1.49,Precaución
+Abdulelah Saad Hameed Al-Malki,Saudi Arabia,2022-11-22,487.4,344.4,1.42,Precaución
+Aymen Dahmen,Tunisia,2022-11-22,484.9,336.3,1.44,Precaución
+Karim Boudiaf,Qatar,2022-11-22,468.6,354.2,1.32,Precaución
+Boualem Khoukhi,Qatar,2022-11-22,467.5,354.1,1.32,Precaución
+Abdulaziz Hatem Mohammed Abdullah,Qatar,2022-11-22,474.9,358.8,1.32,Precaución
+Homam Alamin Ahmed,Qatar,2022-11-22,494.5,356.5,1.39,Precaución
+Seyed Hossein Hosseini,Iran,2022-11-22,467.6,348.7,1.34,Precaución
+Keysher Fuller Spence,Costa Rica,2022-11-22,433.3,328.7,1.32,Precaución
+Pablo Martín Páez Gavira,Spain,2022-11-22,455.8,340.4,1.34,Precaución
+Ismaïla Sarr,Senegal,2022-11-23,486.0,361.3,1.35,Precaución
+Ángel Fabián Di María Hernández,Argentina,2022-11-23,464.5,353.1,1.32,Precaución
+Kylian Mbappé Lottin,France,2022-11-23,461.4,352.4,1.31,Precaución
+Kamil Glik,Poland,2022-11-23,478.8,352.3,1.36,Precaución
+Christian Dannemann Eriksen,Denmark,2022-11-23,483.1,366.0,1.32,Precaución
+Jan Vertonghen,Belgium,2022-11-23,503.5,358.1,1.41,Precaución
+Ben Davies,Wales,2022-11-23,488.4,364.8,1.34,Precaución
+Kevin De Bruyne,Belgium,2022-11-23,535.5,371.6,1.44,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-11-23,484.9,352.4,1.38,Precaución
+Antonio Rüdiger,Germany,2022-11-23,507.5,347.2,1.46,Precaución
+John Stones,England,2022-11-23,521.9,377.1,1.38,Precaución
+Maya Yoshida,Japan,2022-11-23,498.1,359.2,1.39,Precaución
+Kieran Trippier,England,2022-11-23,484.2,361.3,1.34,Precaución
+Daley Blind,Netherlands,2022-11-23,483.7,365.2,1.32,Precaución
+Luke Shaw,England,2022-11-23,489.5,361.5,1.35,Precaución
+Youssouf Sabaly,Senegal,2022-11-23,504.1,370.5,1.36,Precaución
+Idrissa Gana Gueye,Senegal,2022-11-23,466.7,351.3,1.33,Precaución
+Nikola Vlašić,Croatia,2022-11-23,456.0,341.4,1.34,Precaución
+Jordan Pickford,England,2022-11-23,496.8,362.0,1.37,Precaución
+Dejan Lovren,Croatia,2022-11-23,495.7,345.8,1.43,Precaución
+Thibaut Courtois,Belgium,2022-11-23,492.5,359.7,1.37,Precaución
+Aaron Ramsey,Wales,2022-11-23,473.8,356.6,1.33,Precaución
+Pierre-Emile Højbjerg,Denmark,2022-11-23,463.6,352.0,1.32,Precaución
+Sofiane Boufal,Morocco,2022-11-23,475.5,344.9,1.38,Precaución
+Grzegorz Krychowiak,Poland,2022-11-23,478.6,353.8,1.35,Precaución
+Virgil van Dijk,Netherlands,2022-11-23,507.7,368.4,1.38,Precaución
+Declan Rice,England,2022-11-23,497.4,376.1,1.32,Precaución
+Andreas Christensen,Denmark,2022-11-23,478.4,357.3,1.34,Precaución
+Aymeric Laporte,Spain,2022-11-23,485.4,368.8,1.32,Precaución
+Antonee Robinson,United States,2022-11-23,494.8,372.7,1.33,Precaución
+Matty Cash,Poland,2022-11-23,492.7,365.4,1.35,Precaución
+Connor Roberts,Wales,2022-11-23,476.1,362.6,1.31,Precaución
+Salem Mohammed Al Dawsari,Saudi Arabia,2022-11-23,451.4,344.9,1.31,Precaución
+Sergio Busquets i Burgos,Spain,2022-11-23,481.2,356.4,1.35,Precaución
+Jordi Alba Ramos,Spain,2022-11-23,438.3,326.7,1.34,Precaución
+Romain Saïss,Morocco,2022-11-23,516.8,355.4,1.45,Precaución
+Seyed Majid Hosseini,Iran,2022-11-23,494.8,374.9,1.32,Precaución
+Ehsan Hajsafi,Iran,2022-11-23,480.9,356.9,1.35,Precaución
+Sofyan Amrabat,Morocco,2022-11-23,507.8,365.9,1.39,Precaución
+Hakim Ziyech,Morocco,2022-11-23,509.3,359.6,1.42,Precaución
+Achraf Hakimi Mouh,Morocco,2022-11-23,531.3,353.6,1.5,Precaución
+Mateo Kovačić,Croatia,2022-11-23,491.4,365.3,1.35,Precaución
+Andrej Kramarić,Croatia,2022-11-23,486.9,355.4,1.37,Precaución
+Luka Modrić,Croatia,2022-11-23,504.9,366.3,1.38,Precaución
+Marcelo Brozović,Croatia,2022-11-23,490.7,353.1,1.39,Precaución
+Ivan Perišić,Croatia,2022-11-23,485.2,357.6,1.36,Precaución
+Ousmane Dembélé,France,2022-11-23,450.4,343.8,1.31,Precaución
+Aziz Eraltay Behich,Australia,2022-11-23,492.7,353.4,1.39,Precaución
+Nicolás Alejandro Tagliafico,Argentina,2022-11-23,471.3,357.6,1.32,Precaución
+Thomas Müller,Germany,2022-11-23,457.6,339.7,1.35,Precaución
+Edson Omar Álvarez Velázquez,Mexico,2022-11-23,476.1,363.6,1.31,Precaución
+Hirving Rodrigo Lozano Bahena,Mexico,2022-11-23,487.3,364.6,1.34,Precaución
+Héctor Alfredo Moreno Herrera,Mexico,2022-11-23,483.4,361.3,1.34,Precaución
+Jesús Daniel Gallardo Vasconcelos,Mexico,2022-11-23,484.4,363.1,1.33,Precaución
+Joshua Kimmich,Germany,2022-11-23,498.6,360.7,1.38,Precaución
+Joel Nathaniel Campbell Samuels,Costa Rica,2022-11-23,522.6,363.4,1.44,Precaución
+Celso Borges Mora,Costa Rica,2022-11-23,480.1,355.8,1.35,Precaución
+Keylor Navas Gamboa,Costa Rica,2022-11-23,529.3,363.3,1.46,Precaución
+Óscar Esau Duarte Gaitán,Costa Rica,2022-11-23,537.7,368.7,1.46,Precaución
+Francisco Javier Calvo Quesada,Costa Rica,2022-11-23,523.1,374.3,1.4,Precaución
+Axel Witsel,Belgium,2022-11-23,522.3,366.2,1.43,Precaución
+Yassine Meriah,Tunisia,2022-11-23,456.8,345.5,1.32,Precaución
+Piotr Zieliński,Poland,2022-11-23,458.4,343.3,1.34,Precaución
+Robert Lewandowski,Poland,2022-11-23,464.7,342.3,1.36,Precaución
+Wojciech Szczęsny,Poland,2022-11-23,470.5,345.1,1.36,Precaución
+Bartosz Bereszyński,Poland,2022-11-23,472.0,349.2,1.35,Precaución
+Kalidou Koulibaly,Senegal,2022-11-23,508.3,355.0,1.43,Precaución
+Yuto Nagatomo,Japan,2022-11-23,461.1,349.0,1.32,Precaución
+Mohammed Kanoo,Saudi Arabia,2022-11-23,469.0,350.1,1.34,Precaución
+Ali Albulayhi,Saudi Arabia,2022-11-23,476.1,355.1,1.34,Precaución
+Marco Asensio Willemsen,Spain,2022-11-23,503.1,363.0,1.39,Precaución
+Bryan Oviedo,Costa Rica,2022-11-23,476.3,353.7,1.35,Precaución
+Yeltsin Ignacio Tejeda Valverde,Costa Rica,2022-11-23,550.3,374.2,1.47,Precaución
+Youssef En-Nesyri,Morocco,2022-11-23,520.5,364.8,1.43,Precaución
+Kendall Jamaal Waston Manley,Costa Rica,2022-11-23,465.0,348.1,1.34,Precaución
+Gareth Frank Bale,Wales,2022-11-23,482.5,361.1,1.34,Precaución
+Ferrán Torres García,Spain,2022-11-23,468.4,355.3,1.32,Precaución
+Rodrigo Hernández Cascante,Spain,2022-11-23,497.6,353.3,1.41,Precaución
+Yassine Bounou,Morocco,2022-11-23,517.6,358.6,1.44,Precaución
+Damián Emiliano Martínez,Argentina,2022-11-23,459.0,351.4,1.31,Precaución
+Timothy Castagne,Belgium,2022-11-23,505.7,360.9,1.4,Precaución
+Edouard Mendy,Senegal,2022-11-23,486.2,354.3,1.37,Precaución
+Frenkie de Jong,Netherlands,2022-11-23,477.6,362.1,1.32,Precaución
+Denzel Dumfries,Netherlands,2022-11-23,499.5,356.5,1.4,Precaución
+Christian Pulisic,United States,2022-11-23,478.7,357.0,1.34,Precaución
+Andries Noppert,Netherlands,2022-11-23,472.7,350.9,1.35,Precaución
+Craig Goodwin,Australia,2022-11-23,461.4,349.0,1.32,Precaución
+Serge Gnabry,Germany,2022-11-23,498.8,355.5,1.4,Precaución
+Dayotchanculle Upamecano,France,2022-11-23,484.3,358.8,1.35,Precaución
+Daichi Kamada,Japan,2022-11-23,513.0,360.8,1.42,Precaución
+İlkay Gündoğan,Germany,2022-11-23,457.8,350.8,1.31,Precaución
+Joe Rodon,Wales,2022-11-23,503.5,380.4,1.32,Precaución
+Lautaro Javier Martínez,Argentina,2022-11-23,477.0,355.6,1.34,Precaución
+Mario Pašalić,Croatia,2022-11-23,448.0,340.1,1.32,Precaución
+Unai Simón Mendibil,Spain,2022-11-23,485.9,354.9,1.37,Precaución
+David Raum,Germany,2022-11-23,520.7,354.1,1.47,Precaución
+Nayef Aguerd,Morocco,2022-11-23,502.4,369.6,1.36,Precaución
+Matthew Charles Turner,United States,2022-11-23,496.3,363.5,1.37,Precaución
+Alphonso Davies,Canada,2022-11-23,519.3,372.1,1.4,Precaución
+Borna Sosa,Croatia,2022-11-23,522.6,367.7,1.42,Precaución
+Noussair Mazraoui,Morocco,2022-11-23,485.6,357.8,1.36,Precaución
+Milan Borjan,Canada,2022-11-23,502.4,347.2,1.45,Precaución
+Rasmus Nissen Kristensen,Denmark,2022-11-23,498.7,366.8,1.36,Precaución
+Leandro Daniel Paredes,Argentina,2022-11-23,456.4,345.4,1.32,Precaución
+Dominik Livaković,Croatia,2022-11-23,502.6,358.2,1.4,Precaución
+Daniel Olmo Carvajal,Spain,2022-11-23,516.5,365.3,1.41,Precaución
+Toby Alderweireld,Belgium,2022-11-23,503.7,368.9,1.37,Precaución
+Cody Mathès Gakpo,Netherlands,2022-11-23,480.4,359.8,1.34,Precaución
+Krépin Diatta,Senegal,2022-11-23,466.3,350.8,1.33,Precaución
+Bukayo Saka,England,2022-11-23,469.6,357.0,1.32,Precaución
+Harry Souttar,Australia,2022-11-23,480.7,353.4,1.36,Precaución
+Lucas Tolentino Coelho de Lima,Brazil,2022-11-23,424.5,324.9,1.31,Precaución
+Junya Ito,Japan,2022-11-23,523.1,360.8,1.45,Precaución
+Jonathan David,Canada,2022-11-23,495.2,350.1,1.41,Precaución
+Wataru Endo,Japan,2022-11-23,496.2,363.5,1.37,Precaución
+Takehiro Tomiyasu,Japan,2022-11-23,450.0,342.0,1.32,Precaución
+Selim Amallah,Morocco,2022-11-23,521.0,367.8,1.42,Precaución
+Kamal Miller,Canada,2022-11-23,511.3,368.9,1.39,Precaución
+Shūichi Gonda,Japan,2022-11-23,505.9,346.5,1.46,Precaución
+César Jasib Montes Castro,Mexico,2022-11-23,475.7,358.4,1.33,Precaución
+Jorge Eduardo Sánchez Ramos,Mexico,2022-11-23,482.5,356.6,1.35,Precaución
+Luis Gerardo Chávez Magallón,Mexico,2022-11-23,476.1,362.2,1.31,Precaución
+Josip Juranović,Croatia,2022-11-23,516.4,361.2,1.43,Precaución
+Nahuel Molina Lucero,Argentina,2022-11-23,484.4,349.9,1.38,Precaución
+Ko Itakura,Japan,2022-11-23,505.9,359.5,1.41,Precaución
+Pedro González López,Spain,2022-11-23,468.0,349.2,1.34,Precaución
+Daizen Maeda,Japan,2022-11-23,486.1,353.4,1.38,Precaución
+Jude Bellingham,England,2022-11-23,496.0,370.3,1.34,Precaución
+Gonzalo Jordy Plata Jiménez,Ecuador,2022-11-23,485.6,369.2,1.32,Precaución
+Jakub Kamiński,Poland,2022-11-23,507.3,376.8,1.35,Precaución
+Montassar Omar Talbi,Tunisia,2022-11-23,477.2,360.9,1.32,Precaución
+Joško Gvardiol,Croatia,2022-11-23,519.5,367.1,1.42,Precaución
+Michael Steveen Estrada Martínez,Ecuador,2022-11-23,480.0,365.9,1.31,Precaución
+Kaoru Mitoma,Japan,2022-11-23,457.5,348.5,1.31,Precaución
+Hernán Ismael Galíndez,Ecuador,2022-11-23,489.4,369.0,1.33,Precaución
+Piero Martín Hincapié Reyna,Ecuador,2022-11-23,495.3,368.3,1.34,Precaución
+Jamal Musiala,Germany,2022-11-23,505.1,358.9,1.41,Precaución
+Jakub Piotr Kiwior,Poland,2022-11-23,487.6,357.4,1.36,Precaución
+Alistair Johnston,Canada,2022-11-23,560.9,373.6,1.5,Precaución
+Aïssa Bilal Laïdouni,Tunisia,2022-11-23,508.3,364.8,1.39,Precaución
+Azzedine Ounahi,Morocco,2022-11-23,477.7,348.4,1.37,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-23,506.4,351.4,1.44,Precaución
+Saud Abdullah Abdul Hamid,Saudi Arabia,2022-11-23,462.1,335.2,1.38,Precaución
+Abdulelah Saad Hameed Al-Malki,Saudi Arabia,2022-11-23,450.3,339.9,1.32,Precaución
+Aymen Dahmen,Tunisia,2022-11-23,441.9,330.5,1.34,Precaución
+Karim Boudiaf,Qatar,2022-11-23,471.9,359.4,1.31,Precaución
+Homam Alamin Ahmed,Qatar,2022-11-23,491.7,362.3,1.36,Precaución
+Seyed Hossein Hosseini,Iran,2022-11-23,481.4,361.8,1.33,Precaución
+Keysher Fuller Spence,Costa Rica,2022-11-23,491.9,351.8,1.4,Precaución
+Pablo Martín Páez Gavira,Spain,2022-11-23,523.0,361.6,1.45,Precaución
+Ángel Fabián Di María Hernández,Argentina,2022-11-24,495.0,363.5,1.36,Precaución
+Kylian Mbappé Lottin,France,2022-11-24,491.1,363.3,1.35,Precaución
+Kamil Glik,Poland,2022-11-24,487.3,362.9,1.34,Precaución
+Christian Dannemann Eriksen,Denmark,2022-11-24,504.1,378.9,1.33,Precaución
+Danilo Luiz da Silva,Brazil,2022-11-24,487.4,358.9,1.36,Precaución
+Jan Vertonghen,Belgium,2022-11-24,468.6,354.5,1.32,Precaución
+Kevin De Bruyne,Belgium,2022-11-24,497.6,365.7,1.36,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-11-24,490.8,359.7,1.36,Precaución
+Antonio Rüdiger,Germany,2022-11-24,451.9,342.2,1.32,Precaución
+Richarlison de Andrade,Brazil,2022-11-24,457.5,345.8,1.32,Precaución
+Grzegorz Krychowiak,Poland,2022-11-24,481.9,360.2,1.34,Precaución
+Dušan Tadić,Serbia,2022-11-24,464.4,351.3,1.32,Precaución
+Andreas Christensen,Denmark,2022-11-24,502.3,370.5,1.36,Precaución
+Marcos Aoás Corrêa,Brazil,2022-11-24,457.4,348.0,1.31,Precaución
+Matty Cash,Poland,2022-11-24,499.3,375.4,1.33,Precaución
+Salem Mohammed Al Dawsari,Saudi Arabia,2022-11-24,468.5,354.0,1.32,Precaución
+Bruno Miguel Borges Fernandes,Portugal,2022-11-24,456.1,338.4,1.35,Precaución
+Raphaël Adelino José Guerreiro,Portugal,2022-11-24,444.4,338.9,1.31,Precaución
+Romain Saïss,Morocco,2022-11-24,466.2,348.9,1.34,Precaución
+Hakim Ziyech,Morocco,2022-11-24,477.5,358.0,1.33,Precaución
+Achraf Hakimi Mouh,Morocco,2022-11-24,475.7,349.2,1.36,Precaución
+Aziz Eraltay Behich,Australia,2022-11-24,478.7,358.3,1.34,Precaución
+Nicolás Alejandro Tagliafico,Argentina,2022-11-24,480.6,366.6,1.31,Precaución
+Alisson Ramsés Becker,Brazil,2022-11-24,497.1,357.4,1.39,Precaución
+Manuel Neuer,Germany,2022-11-24,502.2,356.9,1.41,Precaución
+Héctor Alfredo Moreno Herrera,Mexico,2022-11-24,497.7,371.8,1.34,Precaución
+Jesús Daniel Gallardo Vasconcelos,Mexico,2022-11-24,500.1,373.1,1.34,Precaución
+Joel Nathaniel Campbell Samuels,Costa Rica,2022-11-24,468.4,356.5,1.31,Precaución
+Keylor Navas Gamboa,Costa Rica,2022-11-24,481.3,360.7,1.33,Precaución
+Óscar Esau Duarte Gaitán,Costa Rica,2022-11-24,491.7,366.0,1.34,Precaución
+Axel Witsel,Belgium,2022-11-24,491.2,363.6,1.35,Precaución
+Yassine Meriah,Tunisia,2022-11-24,479.8,358.4,1.34,Precaución
+Piotr Zieliński,Poland,2022-11-24,476.2,354.7,1.34,Precaución
+Robert Lewandowski,Poland,2022-11-24,485.9,352.7,1.38,Precaución
+Wojciech Szczęsny,Poland,2022-11-24,469.8,352.9,1.33,Precaución
+Bartosz Bereszyński,Poland,2022-11-24,486.5,360.0,1.35,Precaución
+Kalidou Koulibaly,Senegal,2022-11-24,471.8,355.3,1.33,Precaución
+Mohammed Kanoo,Saudi Arabia,2022-11-24,481.4,357.4,1.35,Precaución
+Ali Albulayhi,Saudi Arabia,2022-11-24,481.1,360.8,1.33,Precaución
+Yeltsin Ignacio Tejeda Valverde,Costa Rica,2022-11-24,506.5,370.2,1.37,Precaución
+Youssef En-Nesyri,Morocco,2022-11-24,479.8,359.8,1.33,Precaución
+Milos Veljkovic,Serbia,2022-11-24,451.7,342.7,1.32,Precaución
+Niklas Süle,Germany,2022-11-24,495.2,358.7,1.38,Precaución
+Yassine Bounou,Morocco,2022-11-24,479.4,355.7,1.35,Precaución
+Damián Emiliano Martínez,Argentina,2022-11-24,472.8,360.6,1.31,Precaución
+João Pedro Cavaco Cancelo,Portugal,2022-11-24,455.2,340.4,1.34,Precaución
+Nicolas Alexis Julio N'Koulou Ndoubena,Cameroon,2022-11-24,454.5,339.2,1.34,Precaución
+Silvan Widmer,Switzerland,2022-11-24,444.8,334.3,1.33,Precaución
+Lawrence Ati-Zigi,Ghana,2022-11-24,446.1,340.9,1.31,Precaución
+Denzel Dumfries,Netherlands,2022-11-24,469.5,358.3,1.31,Precaución
+Craig Goodwin,Australia,2022-11-24,482.9,359.7,1.34,Precaución
+Dayotchanculle Upamecano,France,2022-11-24,490.2,371.8,1.32,Precaución
+Raphael Dias Belloli,Brazil,2022-11-24,448.6,337.1,1.33,Precaución
+Lautaro Javier Martínez,Argentina,2022-11-24,492.6,363.6,1.35,Precaución
+Steven de Sousa Vitoria,Canada,2022-11-24,492.2,354.3,1.39,Precaución
+David Raum,Germany,2022-11-24,470.1,351.6,1.34,Precaución
+Borna Sosa,Croatia,2022-11-24,481.1,363.0,1.33,Precaución
+Milan Borjan,Canada,2022-11-24,451.6,343.8,1.31,Precaución
+Dominik Livaković,Croatia,2022-11-24,464.7,355.0,1.31,Precaución
+Joakim Mæhle,Denmark,2022-11-24,465.3,355.5,1.31,Precaución
+Mohammed Kudus,Ghana,2022-11-24,441.5,334.5,1.32,Precaución
+Harry Souttar,Australia,2022-11-24,483.0,359.9,1.34,Precaución
+Lucas Tolentino Coelho de Lima,Brazil,2022-11-24,446.7,339.9,1.31,Precaución
+Junya Ito,Japan,2022-11-24,475.8,355.9,1.34,Precaución
+Jonathan David,Canada,2022-11-24,459.1,345.6,1.33,Precaución
+In-Beom Hwang,South Korea,2022-11-24,451.2,345.3,1.31,Precaución
+Selim Amallah,Morocco,2022-11-24,476.3,363.8,1.31,Precaución
+Shūichi Gonda,Japan,2022-11-24,456.8,341.4,1.34,Precaución
+Jorge Eduardo Sánchez Ramos,Mexico,2022-11-24,477.9,362.0,1.32,Precaución
+Strahinja Pavlović,Serbia,2022-11-24,477.5,346.4,1.38,Precaución
+Luis Gerardo Chávez Magallón,Mexico,2022-11-24,493.6,373.3,1.32,Precaución
+Nahuel Molina Lucero,Argentina,2022-11-24,487.9,355.2,1.37,Precaución
+Joško Gvardiol,Croatia,2022-11-24,477.2,365.5,1.31,Precaución
+Seung-Gyu Kim,South Korea,2022-11-24,470.4,343.3,1.37,Precaución
+Jamal Musiala,Germany,2022-11-24,469.0,355.9,1.32,Precaución
+Jin-Su Kim,South Korea,2022-11-24,443.4,329.8,1.34,Precaución
+Jakub Piotr Kiwior,Poland,2022-11-24,483.4,365.5,1.32,Precaución
+Alistair Johnston,Canada,2022-11-24,498.1,368.8,1.35,Precaución
+Aïssa Bilal Laïdouni,Tunisia,2022-11-24,497.1,368.7,1.35,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-24,529.2,362.0,1.46,Precaución
+Saud Abdullah Abdul Hamid,Saudi Arabia,2022-11-24,467.1,340.6,1.37,Precaución
+Abdulelah Saad Hameed Al-Malki,Saudi Arabia,2022-11-24,481.3,352.3,1.37,Precaución
+Aymen Dahmen,Tunisia,2022-11-24,457.5,336.5,1.36,Precaución
+Keysher Fuller Spence,Costa Rica,2022-11-24,466.0,347.7,1.34,Precaución
+Pablo Martín Páez Gavira,Spain,2022-11-24,484.2,357.3,1.36,Precaución
+Ismaïla Sarr,Senegal,2022-11-25,491.4,373.9,1.31,Precaución
+Ben Davies,Wales,2022-11-25,521.9,390.1,1.34,Precaución
+Kevin De Bruyne,Belgium,2022-11-25,487.7,370.8,1.32,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-11-25,481.0,361.6,1.33,Precaución
+Antonio Rüdiger,Germany,2022-11-25,462.7,350.7,1.32,Precaución
+John Stones,England,2022-11-25,534.6,397.3,1.35,Precaución
+Kieran Trippier,England,2022-11-25,511.2,385.6,1.33,Precaución
+Daley Blind,Netherlands,2022-11-25,506.5,386.5,1.31,Precaución
+Luke Shaw,England,2022-11-25,499.3,382.5,1.31,Precaución
+Youssouf Sabaly,Senegal,2022-11-25,513.7,392.7,1.31,Precaución
+Idrissa Gana Gueye,Senegal,2022-11-25,488.5,371.7,1.31,Precaución
+Dejan Lovren,Croatia,2022-11-25,475.2,353.1,1.35,Precaución
+Virgil van Dijk,Netherlands,2022-11-25,529.7,388.5,1.36,Precaución
+Kieffer Roberto Francisco Moore,Wales,2022-11-25,489.5,367.7,1.33,Precaución
+Nampalys Mendy,Senegal,2022-11-25,485.8,371.3,1.31,Precaución
+Seyed Majid Hosseini,Iran,2022-11-25,522.8,398.6,1.31,Precaución
+Hakim Ziyech,Morocco,2022-11-25,490.6,367.5,1.33,Precaución
+Manuel Neuer,Germany,2022-11-25,487.4,361.3,1.35,Precaución
+Robert Lewandowski,Poland,2022-11-25,467.6,352.4,1.33,Precaución
+Bartosz Bereszyński,Poland,2022-11-25,475.3,360.6,1.32,Precaución
+Kalidou Koulibaly,Senegal,2022-11-25,515.5,378.0,1.36,Precaución
+Yeltsin Ignacio Tejeda Valverde,Costa Rica,2022-11-25,517.2,382.2,1.35,Precaución
+Niklas Süle,Germany,2022-11-25,488.7,366.4,1.33,Precaución
+Gareth Frank Bale,Wales,2022-11-25,523.3,382.9,1.37,Precaución
+Rodrigo Hernández Cascante,Spain,2022-11-25,472.5,357.8,1.32,Precaución
+Yassine Bounou,Morocco,2022-11-25,480.7,363.4,1.32,Precaución
+Edouard Mendy,Senegal,2022-11-25,512.0,376.7,1.36,Precaución
+Frenkie de Jong,Netherlands,2022-11-25,521.6,384.1,1.36,Precaución
+Denzel Dumfries,Netherlands,2022-11-25,521.2,382.4,1.36,Precaución
+Unai Simón Mendibil,Spain,2022-11-25,473.3,361.3,1.31,Precaución
+Steven de Sousa Vitoria,Canada,2022-11-25,494.2,364.0,1.36,Precaución
+Matthew Charles Turner,United States,2022-11-25,529.0,383.9,1.38,Precaución
+Milan Borjan,Canada,2022-11-25,472.8,351.5,1.35,Precaución
+Dominik Livaković,Croatia,2022-11-25,494.3,368.3,1.34,Precaución
+Tim Ream,United States,2022-11-25,502.2,376.0,1.34,Precaución
+Cody Mathès Gakpo,Netherlands,2022-11-25,499.3,376.9,1.32,Precaución
+Junya Ito,Japan,2022-11-25,473.3,360.5,1.31,Precaución
+Jonathan David,Canada,2022-11-25,466.6,354.8,1.32,Precaución
+Pervis Josué Estupiñán Tenorio,Ecuador,2022-11-25,522.9,395.2,1.32,Precaución
+Shūichi Gonda,Japan,2022-11-25,471.2,350.8,1.34,Precaución
+Nahuel Molina Lucero,Argentina,2022-11-25,473.1,356.0,1.33,Precaución
+Felix Eduardo Torres Caicedo,Ecuador,2022-11-25,528.2,389.0,1.36,Precaución
+Piero Martín Hincapié Reyna,Ecuador,2022-11-25,506.2,387.7,1.31,Precaución
+Yunus Dimoara Musah,United States,2022-11-25,497.9,377.1,1.32,Precaución
+Akram Hassan Afif,Qatar,2022-11-25,493.2,377.6,1.31,Precaución
+Alistair Johnston,Canada,2022-11-25,499.9,379.2,1.32,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-25,551.9,373.9,1.48,Precaución
+Abdulelah Saad Hameed Al-Malki,Saudi Arabia,2022-11-25,470.3,355.5,1.32,Precaución
+Aymen Dahmen,Tunisia,2022-11-25,446.1,340.3,1.31,Precaución
+Meshaal Aissa Barsham,Qatar,2022-11-25,463.0,347.7,1.33,Precaución
+Homam Alamin Ahmed,Qatar,2022-11-25,497.0,380.4,1.31,Precaución
+Keysher Fuller Spence,Costa Rica,2022-11-25,464.0,354.2,1.31,Precaución
+Pablo Martín Páez Gavira,Spain,2022-11-25,474.6,361.7,1.31,Precaución
+Kylian Mbappé Lottin,France,2022-11-26,528.6,387.8,1.36,Precaución
+Kamil Glik,Poland,2022-11-26,521.4,387.2,1.35,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-11-26,522.1,382.2,1.37,Precaución
+Mathew Ryan,Australia,2022-11-26,510.3,383.5,1.33,Precaución
+Aaron Mooy,Australia,2022-11-26,510.6,386.8,1.32,Precaución
+Andreas Christensen,Denmark,2022-11-26,522.7,393.2,1.33,Precaución
+Matty Cash,Poland,2022-11-26,524.4,398.3,1.32,Precaución
+Salem Mohammed Al Dawsari,Saudi Arabia,2022-11-26,502.7,376.1,1.34,Precaución
+Aziz Eraltay Behich,Australia,2022-11-26,500.8,380.4,1.32,Precaución
+Antoine Griezmann,France,2022-11-26,514.4,387.1,1.33,Precaución
+Jackson Irvine,Australia,2022-11-26,498.0,371.5,1.34,Precaución
+Héctor Alfredo Moreno Herrera,Mexico,2022-11-26,527.7,392.2,1.35,Precaución
+Jesús Daniel Gallardo Vasconcelos,Mexico,2022-11-26,517.7,391.8,1.32,Precaución
+Yassine Meriah,Tunisia,2022-11-26,502.9,380.5,1.32,Precaución
+Robert Lewandowski,Poland,2022-11-26,514.6,373.9,1.38,Precaución
+Wojciech Szczęsny,Poland,2022-11-26,496.8,376.1,1.32,Precaución
+Bartosz Bereszyński,Poland,2022-11-26,531.2,381.8,1.39,Precaución
+Mohammed Kanoo,Saudi Arabia,2022-11-26,499.8,377.0,1.33,Precaución
+Mohammed Khalil Al Owais,Saudi Arabia,2022-11-26,507.8,385.5,1.32,Precaución
+Rodrigo Javier De Paul,Argentina,2022-11-26,515.0,385.5,1.34,Precaución
+Joachim Andersen,Denmark,2022-11-26,505.4,385.6,1.31,Precaución
+Dayotchanculle Upamecano,France,2022-11-26,513.9,393.2,1.31,Precaución
+Rasmus Nissen Kristensen,Denmark,2022-11-26,511.4,391.3,1.31,Precaución
+Joakim Mæhle,Denmark,2022-11-26,504.2,377.8,1.33,Precaución
+Harry Souttar,Australia,2022-11-26,507.3,380.0,1.34,Precaución
+César Jasib Montes Castro,Mexico,2022-11-26,508.8,388.0,1.31,Precaución
+Luis Gerardo Chávez Magallón,Mexico,2022-11-26,540.0,396.8,1.36,Precaución
+Ali Abdi,Tunisia,2022-11-26,507.1,383.0,1.32,Precaución
+Jakub Piotr Kiwior,Poland,2022-11-26,522.3,387.8,1.35,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-26,546.8,382.3,1.43,Precaución
+Saud Abdullah Abdul Hamid,Saudi Arabia,2022-11-26,496.8,367.3,1.35,Precaución
+Abdulelah Saad Hameed Al-Malki,Saudi Arabia,2022-11-26,514.0,373.0,1.38,Precaución
+Aymen Dahmen,Tunisia,2022-11-26,499.9,362.4,1.38,Precaución
+Antonio Rüdiger,Germany,2022-11-27,500.3,373.8,1.34,Precaución
+Dejan Lovren,Croatia,2022-11-27,521.8,375.1,1.39,Precaución
+Thibaut Courtois,Belgium,2022-11-27,499.3,378.8,1.32,Precaución
+Romain Saïss,Morocco,2022-11-27,500.1,379.0,1.32,Precaución
+Hakim Ziyech,Morocco,2022-11-27,516.2,385.8,1.34,Precaución
+Joshua Kimmich,Germany,2022-11-27,511.2,388.1,1.32,Precaución
+Yeltsin Ignacio Tejeda Valverde,Costa Rica,2022-11-27,532.4,401.8,1.33,Precaución
+Niklas Süle,Germany,2022-11-27,517.5,384.7,1.35,Precaución
+Rodrigo Hernández Cascante,Spain,2022-11-27,500.8,372.7,1.34,Precaución
+Timothy Castagne,Belgium,2022-11-27,520.9,387.1,1.35,Precaución
+Denzel Dumfries,Netherlands,2022-11-27,517.5,390.1,1.33,Precaución
+Daichi Kamada,Japan,2022-11-27,504.7,384.5,1.31,Precaución
+Unai Simón Mendibil,Spain,2022-11-27,516.3,385.0,1.34,Precaución
+Steven de Sousa Vitoria,Canada,2022-11-27,517.7,383.5,1.35,Precaución
+Nayef Aguerd,Morocco,2022-11-27,519.5,395.5,1.31,Precaución
+Matthew Charles Turner,United States,2022-11-27,505.6,385.5,1.31,Precaución
+Milan Borjan,Canada,2022-11-27,510.9,375.5,1.36,Precaución
+Dominik Livaković,Croatia,2022-11-27,521.9,389.8,1.34,Precaución
+Daniel Olmo Carvajal,Spain,2022-11-27,515.3,391.2,1.32,Precaución
+Wataru Endo,Japan,2022-11-27,511.5,387.3,1.32,Precaución
+Kamal Miller,Canada,2022-11-27,534.5,397.7,1.34,Precaución
+Shūichi Gonda,Japan,2022-11-27,504.4,369.3,1.37,Precaución
+Josip Juranović,Croatia,2022-11-27,513.5,390.2,1.32,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-27,542.5,392.3,1.38,Precaución
+Heung-Min Son,South Korea,2022-11-28,526.3,385.6,1.36,Precaución
+Bernardo Mota Veiga de Carvalho e Silva,Portugal,2022-11-28,517.3,371.1,1.39,Precaución
+Kyle Walker,England,2022-11-28,479.3,343.5,1.4,Precaución
+Thiago Emiliano da Silva,Brazil,2022-11-28,523.0,397.3,1.32,Precaución
+Granit Xhaka,Switzerland,2022-11-28,498.7,373.6,1.33,Precaución
+Daniel Amartey,Ghana,2022-11-28,541.0,392.4,1.38,Precaución
+Marcos Aoás Corrêa,Brazil,2022-11-28,513.8,386.0,1.33,Precaución
+Bruno Miguel Borges Fernandes,Portugal,2022-11-28,507.1,376.1,1.35,Precaución
+Rúben Santos Gato Alves Dias,Portugal,2022-11-28,515.9,389.6,1.32,Precaución
+Ramin Rezaeian,Iran,2022-11-28,487.8,373.7,1.31,Precaución
+José María Giménez de Vargas,Uruguay,2022-11-28,506.5,385.3,1.31,Precaución
+Rodrigo Bentancur Colmán,Uruguay,2022-11-28,524.6,388.0,1.35,Precaución
+Carlos Henrique Casimiro,Brazil,2022-11-28,505.2,383.3,1.32,Precaución
+Alisson Ramsés Becker,Brazil,2022-11-28,544.7,393.8,1.38,Precaución
+Manuel Obafemi Akanji,Switzerland,2022-11-28,512.2,390.7,1.31,Precaución
+Filip Kostić,Serbia,2022-11-28,501.5,359.4,1.4,Precaución
+Nikola Milenković,Serbia,2022-11-28,513.8,380.2,1.35,Precaución
+Young-Gwon Kim,South Korea,2022-11-28,493.9,376.5,1.31,Precaución
+Woo-Young Jung,South Korea,2022-11-28,500.1,382.5,1.31,Precaución
+Sebastián Coates Nión,Uruguay,2022-11-28,479.6,358.0,1.34,Precaución
+Thomas Teye Partey,Ghana,2022-11-28,538.4,385.7,1.4,Precaución
+Alex Sandro Lobo Silva,Brazil,2022-11-28,505.2,377.4,1.34,Precaución
+João Pedro Cavaco Cancelo,Portugal,2022-11-28,486.7,372.4,1.31,Precaución
+Jean-Charles Castelletto,Cameroon,2022-11-28,524.8,381.6,1.38,Precaución
+Nicolas Alexis Julio N'Koulou Ndoubena,Cameroon,2022-11-28,526.8,380.1,1.39,Precaución
+Silvan Widmer,Switzerland,2022-11-28,489.4,367.8,1.33,Precaución
+Lawrence Ati-Zigi,Ghana,2022-11-28,511.9,378.7,1.35,Precaución
+Éder Gabriel Militão,Brazil,2022-11-28,482.6,359.3,1.34,Precaución
+Devis Rogers Epassy Mboka,Cameroon,2022-11-28,483.9,349.0,1.39,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-11-28,512.4,350.7,1.46,Precaución
+In-Beom Hwang,South Korea,2022-11-28,510.9,380.4,1.34,Precaución
+Alexis Mac Allister,Argentina,2022-11-28,457.6,348.0,1.31,Precaución
+Mohamed Salisu,Ghana,2022-11-28,500.6,382.9,1.31,Precaución
+Salis Abdul Samed,Ghana,2022-11-28,516.6,375.0,1.38,Precaución
+Diogo Meireles Costa,Portugal,2022-11-28,510.7,380.7,1.34,Precaución
+Sergio Rochet Álvarez,Uruguay,2022-11-28,521.3,391.4,1.33,Precaución
+Hidemasa Morita,Japan,2022-11-28,451.8,346.1,1.31,Precaución
+Seung-Gyu Kim,South Korea,2022-11-28,528.1,386.6,1.37,Precaución
+Jin-Su Kim,South Korea,2022-11-28,508.8,368.1,1.38,Precaución
+Min Jae Kim,South Korea,2022-11-28,508.0,378.2,1.34,Precaución
+Hassan Mohammed Al-Tambakti,Saudi Arabia,2022-11-28,552.9,407.9,1.36,Precaución
+Kyle Walker,England,2022-11-29,488.5,354.2,1.38,Precaución
+Kieffer Roberto Francisco Moore,Wales,2022-11-29,529.3,403.5,1.31,Precaución
+Ramin Rezaeian,Iran,2022-11-29,535.3,394.4,1.36,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-11-29,465.0,347.4,1.34,Precaución
+Randal Kolo Muani,France,2022-11-29,463.9,343.0,1.35,Precaución
+Yunus Dimoara Musah,United States,2022-11-29,545.2,416.8,1.31,Precaución
+Ismaeel Mohammad Mohammad,Qatar,2022-11-29,499.7,370.2,1.35,Precaución
+Bernardo Mota Veiga de Carvalho e Silva,Portugal,2022-11-30,497.1,374.7,1.33,Precaución
+Rúben Santos Gato Alves Dias,Portugal,2022-11-30,522.7,396.5,1.32,Precaución
+Nikola Milenković,Serbia,2022-11-30,507.0,385.2,1.32,Precaución
+Thomas Teye Partey,Ghana,2022-11-30,507.1,388.1,1.31,Precaución
+Lawrence Ati-Zigi,Ghana,2022-11-30,498.8,380.9,1.31,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-11-30,492.2,360.9,1.36,Precaución
+Randal Kolo Muani,France,2022-11-30,519.2,366.2,1.42,Precaución
+Jesper Lindstrøm,Denmark,2022-11-30,522.1,389.5,1.34,Precaución
+Sergio Rochet Álvarez,Uruguay,2022-11-30,526.5,394.3,1.34,Precaución
+Seung-Gyu Kim,South Korea,2022-11-30,511.6,390.1,1.31,Precaución
+Jin-Su Kim,South Korea,2022-11-30,511.9,376.3,1.36,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-12-01,472.0,361.3,1.31,Precaución
+Shogo Taniguchi,Japan,2022-12-01,461.9,342.1,1.35,Precaución
+Aleksandar Mitrović,Serbia,2022-12-02,516.3,387.0,1.33,Precaución
+Jules Koundé,France,2022-12-02,517.2,387.3,1.34,Precaución
+Guillermo Varela Olivera,Uruguay,2022-12-02,502.6,365.0,1.38,Precaución
+Filip Kostić,Serbia,2022-12-02,502.2,382.6,1.31,Precaución
+Nikola Milenković,Serbia,2022-12-02,541.4,409.7,1.32,Precaución
+Sebastián Coates Nión,Uruguay,2022-12-02,510.7,387.8,1.32,Precaución
+Saša Lukić,Serbia,2022-12-02,525.9,392.4,1.34,Precaución
+Mathías Olivera Miramontes,Uruguay,2022-12-02,511.7,389.0,1.32,Precaución
+Lawrence Ati-Zigi,Ghana,2022-12-02,527.0,402.8,1.31,Precaución
+Devis Rogers Epassy Mboka,Cameroon,2022-12-02,508.3,382.3,1.33,Precaución
+José Diogo Dalot Teixeira,Portugal,2022-12-02,432.0,329.2,1.31,Precaución
+Mohammed Kudus,Ghana,2022-12-02,510.5,390.0,1.31,Precaución
+Vinícius José Paixão de Oliveira Júnior,Brazil,2022-12-02,511.7,390.0,1.31,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-12-02,529.3,378.9,1.4,Precaución
+Randal Kolo Muani,France,2022-12-02,499.9,377.0,1.33,Precaución
+Diogo Meireles Costa,Portugal,2022-12-02,530.7,404.8,1.31,Precaución
+Sergio Rochet Álvarez,Uruguay,2022-12-02,549.1,417.7,1.31,Precaución
+Seung-Gyu Kim,South Korea,2022-12-02,543.1,409.6,1.33,Precaución
+Jin-Su Kim,South Korea,2022-12-02,531.6,396.4,1.34,Precaución
+Gue-Sung Cho,South Korea,2022-12-02,496.3,363.5,1.37,Precaución
+Randal Kolo Muani,France,2022-12-03,520.8,385.6,1.35,Precaución
+Jordan Brian Henderson,England,2022-12-04,514.1,390.5,1.32,Precaución
+Jules Koundé,France,2022-12-04,566.1,405.9,1.39,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-12-04,514.8,384.8,1.34,Precaución
+Randal Kolo Muani,France,2022-12-04,526.7,395.0,1.33,Precaución
+Neymar da Silva Santos Junior,Brazil,2022-12-05,545.1,407.4,1.34,Precaución
+Ivan Perišić,Croatia,2022-12-05,654.0,473.6,1.38,Precaución
+José Diogo Dalot Teixeira,Portugal,2022-12-05,456.4,348.3,1.31,Precaución
+Shogo Taniguchi,Japan,2022-12-05,556.3,388.5,1.43,Precaución
+Hidemasa Morita,Japan,2022-12-05,607.5,428.8,1.42,Precaución
+Raphaël Adelino José Guerreiro,Portugal,2022-12-06,588.4,440.8,1.33,Precaución
+Achraf Hakimi Mouh,Morocco,2022-12-06,629.8,468.2,1.35,Precaución
+José Diogo Dalot Teixeira,Portugal,2022-12-06,533.5,372.1,1.43,Precaución
+Kléper Laveran Lima Ferreira,Portugal,2022-12-06,551.8,418.0,1.32,Precaución
+Azzedine Ounahi,Morocco,2022-12-06,611.6,455.1,1.34,Precaución
+Achraf Hakimi Mouh,Morocco,2022-12-07,607.4,458.6,1.32,Precaución
+Ivan Perišić,Croatia,2022-12-07,615.0,469.6,1.31,Precaución
+Azzedine Ounahi,Morocco,2022-12-07,594.8,444.0,1.34,Precaución
+José Diogo Dalot Teixeira,Portugal,2022-12-08,512.6,373.1,1.37,Precaución
+Danilo Luiz da Silva,Brazil,2022-12-09,644.8,476.8,1.35,Precaución
+Nicolás Hernán Otamendi,Argentina,2022-12-09,693.4,504.7,1.37,Precaución
+Dejan Lovren,Croatia,2022-12-09,666.3,487.4,1.37,Precaución
+Neymar da Silva Santos Junior,Brazil,2022-12-09,582.6,429.5,1.36,Precaución
+Marcelo Brozović,Croatia,2022-12-09,633.2,480.7,1.32,Precaución
+Ivan Perišić,Croatia,2022-12-09,710.1,502.2,1.41,Precaución
+Lionel Andrés Messi Cuccittini,Argentina,2022-12-09,667.3,486.4,1.37,Precaución
+Damián Emiliano Martínez,Argentina,2022-12-09,637.4,478.8,1.33,Precaución
+Frenkie de Jong,Netherlands,2022-12-09,627.7,478.6,1.31,Precaución
+Éder Gabriel Militão,Brazil,2022-12-09,604.2,462.7,1.31,Precaución
+Cody Mathès Gakpo,Netherlands,2022-12-09,728.9,502.9,1.45,Precaución
+Jurriën David Norman Timber,Netherlands,2022-12-09,627.3,462.3,1.36,Precaución
+Lucas Tolentino Coelho de Lima,Brazil,2022-12-09,719.3,479.4,1.5,Precaución
+Alexis Mac Allister,Argentina,2022-12-09,584.2,439.4,1.33,Precaución
+Josip Juranović,Croatia,2022-12-09,657.0,491.7,1.34,Precaución
+Nahuel Molina Lucero,Argentina,2022-12-09,677.1,468.1,1.45,Precaución
+Joško Gvardiol,Croatia,2022-12-09,640.5,486.9,1.32,Precaución
+Enzo Fernandez,Argentina,2022-12-09,612.0,418.3,1.46,Precaución
+Azzedine Ounahi,Morocco,2022-12-09,603.8,448.3,1.35,Precaución
+Kyle Walker,England,2022-12-10,571.9,434.5,1.32,Precaución
+Achraf Hakimi Mouh,Morocco,2022-12-10,672.4,485.8,1.38,Precaución
+Ivan Perišić,Croatia,2022-12-10,669.8,492.7,1.36,Precaución
+Raphaël Varane,France,2022-12-10,602.1,436.4,1.38,Precaución
+José Diogo Dalot Teixeira,Portugal,2022-12-10,531.6,391.9,1.36,Precaución
+Azzedine Ounahi,Morocco,2022-12-10,657.7,466.6,1.41,Precaución
+Ivan Perišić,Croatia,2022-12-11,681.0,493.8,1.38,Precaución
+Lisandro Martínez,Argentina,2022-12-11,617.0,467.3,1.32,Precaución
+Josip Juranović,Croatia,2022-12-11,637.4,485.8,1.31,Precaución
+Nahuel Molina Lucero,Argentina,2022-12-11,635.8,464.8,1.37,Precaución
+Enzo Fernandez,Argentina,2022-12-11,554.3,415.3,1.33,Precaución
+Achraf Hakimi Mouh,Morocco,2022-12-12,656.4,495.7,1.32,Precaución
+Azzedine Ounahi,Morocco,2022-12-12,624.6,473.5,1.32,Precaución
+Lionel Andrés Messi Cuccittini,Argentina,2022-12-13,669.6,511.9,1.31,Precaución
+Nahuel Molina Lucero,Argentina,2022-12-13,643.6,491.4,1.31,Precaución
+Enzo Fernandez,Argentina,2022-12-13,595.9,447.3,1.33,Precaución
+Jawad El Yamiq,Morocco,2022-12-14,530.0,383.8,1.38,Precaución
+Youssouf Fofana,France,2022-12-14,545.9,414.1,1.32,Precaución
+Lionel Andrés Messi Cuccittini,Argentina,2022-12-15,658.6,503.6,1.31,Precaución
+Mislav Oršić,Croatia,2022-12-17,498.4,361.5,1.38,Precaución
+Jules Koundé,France,2022-12-18,707.1,505.8,1.4,Precaución
+Raphaël Varane,France,2022-12-18,717.8,513.7,1.4,Precaución
+Nicolás Alejandro Tagliafico,Argentina,2022-12-18,589.0,446.9,1.32,Precaución
+Kingsley Coman,France,2022-12-18,481.2,367.2,1.31,Precaución
+Marten de Roon,Netherlands,2022-11-26,240.0,314.4,0.76,Subcarga
+Marcus Thuram,France,2022-11-27,232.3,327.2,0.71,Subcarga
+Guillermo Varela Olivera,Uruguay,2022-11-27,240.6,315.7,0.76,Subcarga
+Kingsley Coman,France,2022-11-27,271.0,346.9,0.78,Subcarga
+Youssouf Fofana,France,2022-11-27,252.8,331.8,0.76,Subcarga
+Miloš Degenek,Australia,2022-11-27,256.7,343.9,0.75,Subcarga
+Mislav Oršić,Croatia,2022-11-27,252.8,322.3,0.78,Subcarga
+Marcus Thuram,France,2022-11-28,264.1,345.1,0.77,Subcarga
+Steven Bergwijn,Netherlands,2022-11-28,284.8,359.6,0.79,Subcarga
+Mario Pašalić,Croatia,2022-11-28,272.3,346.3,0.79,Subcarga
+Youssouf Fofana,France,2022-11-28,268.8,349.2,0.77,Subcarga
+Miloš Degenek,Australia,2022-11-28,264.8,359.1,0.74,Subcarga
+Mislav Oršić,Croatia,2022-11-28,215.8,329.4,0.66,Subcarga
+Ibrahima Konaté,France,2022-11-29,283.5,371.3,0.76,Subcarga
+Mislav Oršić,Croatia,2022-11-29,255.4,337.6,0.76,Subcarga
+Jakub Kamiński,Poland,2022-11-29,306.4,392.6,0.78,Subcarga
+Steven Berghuis,Netherlands,2022-11-30,258.1,344.6,0.75,Subcarga
+Mario Pašalić,Croatia,2022-11-30,270.1,353.0,0.77,Subcarga
+Steven Berghuis,Netherlands,2022-12-01,273.9,347.7,0.79,Subcarga
+Jakub Kamiński,Poland,2022-12-01,305.7,387.4,0.79,Subcarga
+Jawad El Yamiq,Morocco,2022-12-02,237.1,319.4,0.74,Subcarga
+Mario Pašalić,Croatia,2022-12-02,254.7,347.2,0.73,Subcarga
+Craig Goodwin,Australia,2022-12-03,305.4,385.2,0.79,Subcarga
+Lautaro Javier Martínez,Argentina,2022-12-03,250.6,361.4,0.69,Subcarga
+Lautaro Javier Martínez,Argentina,2022-12-04,251.3,351.9,0.71,Subcarga
+Wataru Endo,Japan,2022-12-04,263.6,382.3,0.69,Subcarga
+Takehiro Tomiyasu,Japan,2022-12-04,284.6,362.0,0.79,Subcarga
+William Silva de Carvalho,Portugal,2022-12-05,286.7,362.8,0.79,Subcarga
+Nicolás Alejandro Tagliafico,Argentina,2022-12-05,292.9,399.1,0.73,Subcarga
+Lautaro Javier Martínez,Argentina,2022-12-05,249.7,371.3,0.67,Subcarga
+Nicolás Alejandro Tagliafico,Argentina,2022-12-06,311.8,403.9,0.77,Subcarga
+Lautaro Javier Martínez,Argentina,2022-12-06,280.1,376.4,0.74,Subcarga
+Rúben Diogo Da Silva Neves,Portugal,2022-12-07,300.8,380.0,0.79,Subcarga
+Cristiano Ronaldo dos Santos Aveiro,Portugal,2022-12-09,297.9,378.7,0.79,Subcarga
+Rúben Diogo Da Silva Neves,Portugal,2022-12-09,297.5,380.8,0.78,Subcarga
+Mislav Oršić,Croatia,2022-12-10,263.6,339.1,0.78,Subcarga
+Ángel Fabián Di María Hernández,Argentina,2022-12-11,314.8,399.4,0.79,Subcarga
+Ángel Fabián Di María Hernández,Argentina,2022-12-12,314.8,399.4,0.79,Subcarga
+Ángel Fabián Di María Hernández,Argentina,2022-12-13,298.3,401.0,0.74,Subcarga
+Romain Saïss,Morocco,2022-12-13,357.2,472.7,0.76,Subcarga
+Ángel Fabián Di María Hernández,Argentina,2022-12-14,302.2,401.1,0.75,Subcarga
+Ángel Fabián Di María Hernández,Argentina,2022-12-15,313.6,402.8,0.78,Subcarga
+Ivan Perišić,Croatia,2022-12-16,393.6,503.3,0.78,Subcarga

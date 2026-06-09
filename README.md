@@ -67,7 +67,7 @@ Este README se irá completando a medida que se construyen los módulos:
 - [x] **Módulo 3** — KPIs y dashboards
 - [x] **Módulo 4** — Modelo de goles esperados (xG)
 - [x] **Módulo 5** — Scouting (percentiles + radares)
-- [ ] **Módulo 6** — Carga física y ACWR
+- [x] **Módulo 6** — Carga física y ACWR
 - [ ] **Módulo 7** — Orquestación + README final
 
 ---
@@ -149,6 +149,38 @@ completado, regates/90, recuperaciones/90 y acciones defensivas/90.
 
 **Salida:** `outputs/exports/scouting_percentiles.csv` y los radares en
 `outputs/figures/`.
+
+---
+
+## 🏃 Carga física y ACWR — ⚠️ módulo metodológico (datos simulados)
+
+> **StatsBomb Open Data NO incluye datos de GPS / carga física.** Por eso este
+> módulo **genera datos de carga simulados** de forma realista (a partir de los
+> minutos jugados, la intensidad del partido y sesiones de entrenamiento
+> sintéticas, con una rampa de pretemporada). **No son datos reales:** el objetivo
+> es demostrar la **metodología** de monitoreo de carga que se aplicaría en un
+> club con datos reales de GPS.
+
+Se calcula el **ACWR** (Acute:Chronic Workload Ratio):
+
+```
+ACWR = carga aguda (media móvil 7 días) / carga crónica (media móvil 28 días)
+```
+
+Y se clasifica en zonas de riesgo, generando alertas de riesgo de lesión:
+
+| Zona | Rango ACWR | Interpretación |
+|------|:----------:|----------------|
+| Subcarga | `< 0.8` | Estímulo insuficiente |
+| **Óptima** | `0.8 – 1.3` | *Sweet spot* |
+| Precaución | `1.3 – 1.5` | Carga elevándose |
+| **Riesgo alto** | `> 1.5` | Riesgo de lesión |
+
+**Salidas:** `outputs/exports/acwr_serie.csv` (serie diaria con ACWR y zona),
+`outputs/exports/acwr_alertas.csv` (días en zona de riesgo) y un gráfico de
+ejemplo en `outputs/figures/`:
+
+![ACWR Messi](outputs/figures/acwr_Lionel_Andrés_Messi_Cucci.png)
 
 ---
 
