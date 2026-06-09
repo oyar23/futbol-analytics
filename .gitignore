@@ -1,0 +1,33 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos crudos e intermedios (no se versionan: son pesados y reproducibles)
+data/raw/
+data/processed/
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Variables de entorno
+.env
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# NOTA: outputs/exports/ y outputs/figures/ SÍ se versionan
+# para que el repositorio se vea completo en GitHub.
