@@ -1,0 +1,1 @@
+{"matches": 64, "teams": 32, "players": 829, "shots": 1453, "goals": 169, "model": {"roc_auc": 0.802, "pearson_r": 0.885}}
