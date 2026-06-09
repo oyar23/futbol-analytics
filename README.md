@@ -65,7 +65,7 @@ Este README se irá completando a medida que se construyen los módulos:
 - [x] **Módulo 1** — Scaffolding + Git
 - [x] **Módulo 2** — ETL multifuente (StatsBomb → SQLite)
 - [x] **Módulo 3** — KPIs y dashboards
-- [ ] **Módulo 4** — Modelo de goles esperados (xG)
+- [x] **Módulo 4** — Modelo de goles esperados (xG)
 - [ ] **Módulo 5** — Scouting (percentiles + radares)
 - [ ] **Módulo 6** — Carga física y ACWR
 - [ ] **Módulo 7** — Orquestación + README final
@@ -98,6 +98,37 @@ vean correctamente.
 
 > Los exports se versionan en el repositorio, así que el dashboard puede
 > reproducirse sin necesidad de re-ejecutar todo el pipeline.
+
+---
+
+## 🤖 Modelo de goles esperados (xG)
+
+Se entrena un modelo propio de xG sobre los **1.430 tiros en juego** del Mundial
+(excluyendo penales) y se compara contra el xG oficial de StatsBomb.
+
+**Features:** distancia y ángulo al arco, distancia a la línea de gol, descentrado
+lateral, parte del cuerpo (cabeza), tipo de jugada (tiro libre / córner), presión,
+remate de primera, y features del *freeze frame* (defensores en el cono de tiro,
+distancia del arquero, nº de rivales y compañeros).
+
+**Evaluación** (validación cruzada estratificada, 5 folds — valores reales):
+
+| Modelo | ROC-AUC | Correlación de Pearson con StatsBomb xG |
+|--------|:-------:|:---------------------------------------:|
+| **LogisticRegression** (elegido) | **0.802** | **0.885** |
+| GradientBoosting | 0.759 | 0.739 |
+
+> El modelo logístico, además de ser el más interpretable, obtuvo el mejor
+> ROC-AUC. La **correlación de 0.885** con el xG oficial de StatsBomb indica que
+> reproduce muy de cerca un modelo profesional usando solo features públicas.
+
+**Decisión sobre penales:** se modelan **aparte** con un valor fijo de
+`xG = 0.79` (probabilidad de conversión histórica de un penal), ya que su
+resultado no depende de la geometría del tiro. Los **penales de tanda**
+(`period = 5`) se excluyen por completo: no son tiros en juego.
+
+**Salidas:** `outputs/exports/xg_model.joblib` (modelo entrenado) y
+`outputs/exports/xg_predicciones.csv` (xG predicho por tiro vs StatsBomb).
 
 ---
 
