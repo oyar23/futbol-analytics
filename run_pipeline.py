@@ -14,6 +14,7 @@ Nota: los módulos se van conectando aquí a medida que se construyen.
 
 import config  # noqa: F401  (reconfigura stdout a UTF-8 en Windows)
 from src.etl import extract, load, transform
+from src.kpis import kpis
 
 
 def run_etl(*, force: bool = False) -> None:
@@ -24,6 +25,11 @@ def run_etl(*, force: bool = False) -> None:
     load.print_summary()
 
 
+def run_kpis() -> None:
+    """Paso 2: KPIs de equipo/jugador + exports para BI."""
+    kpis.run()
+
+
 def main() -> None:
     """Ejecuta el pipeline completo en orden."""
     print("=" * 60)
@@ -31,8 +37,9 @@ def main() -> None:
     print("=" * 60)
     # 1. ETL (extract → transform → load)
     run_etl()
+    # 2. KPIs + exports para BI
+    run_kpis()
     # Próximos módulos (se irán conectando):
-    # 2. KPIs
     # 3. Modelo de xG
     # 4. Scouting
     # 5. Carga física (ACWR)

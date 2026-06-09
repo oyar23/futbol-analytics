@@ -63,12 +63,41 @@ python run_pipeline.py
 Este README se irá completando a medida que se construyen los módulos:
 
 - [x] **Módulo 1** — Scaffolding + Git
-- [ ] **Módulo 2** — ETL multifuente (StatsBomb → SQLite)
-- [ ] **Módulo 3** — KPIs y dashboards
+- [x] **Módulo 2** — ETL multifuente (StatsBomb → SQLite)
+- [x] **Módulo 3** — KPIs y dashboards
 - [ ] **Módulo 4** — Modelo de goles esperados (xG)
 - [ ] **Módulo 5** — Scouting (percentiles + radares)
 - [ ] **Módulo 6** — Carga física y ACWR
 - [ ] **Módulo 7** — Orquestación + README final
+
+---
+
+## 📊 Conectar Power BI / Looker Studio
+
+Tras ejecutar el pipeline, en `outputs/exports/` quedan los datasets listos para BI:
+
+| Archivo | Contenido |
+|---------|-----------|
+| `kpis_equipos.csv` | KPIs por equipo (goles, tiros, xG, % pase, posesión proxy) |
+| `kpis_jugadores.csv` | KPIs por jugador (minutos, goles, asistencias, xG, xG/90) |
+| `tiros.csv` | Tabla de tiros con todas las features |
+| `kpis_futbol.xlsx` | Las tres tablas en un único Excel multi-hoja |
+
+**Power BI Desktop:**
+1. *Obtener datos → Texto/CSV* (o *Excel*) y elegir el archivo de `outputs/exports/`.
+2. *Cargar* cada tabla. Para el Excel, seleccionar las hojas `kpis_equipos`,
+   `kpis_jugadores` y `tiros` en el Navegador.
+3. En la vista *Modelo*, relacionar `tiros[team_name]` con `kpis_equipos[team_name]`
+   y `tiros[player_name]` con `kpis_jugadores[player_name]` si se quieren cruzar.
+4. Construir visuales (ranking de goleadores, xG vs goles, mapa de tiros con
+   `location_x` / `location_y`, etc.).
+
+**Looker Studio:** *Crear → Fuente de datos → Subida de archivos (CSV)* y subir
+los `.csv`. Los archivos usan codificación `utf-8-sig` para que los acentos se
+vean correctamente.
+
+> Los exports se versionan en el repositorio, así que el dashboard puede
+> reproducirse sin necesidad de re-ejecutar todo el pipeline.
 
 ---
 
