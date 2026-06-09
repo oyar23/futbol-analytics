@@ -268,6 +268,30 @@ top = pd.read_sql_query(
 
 ---
 
+## 🖥️ Dashboard web interactivo (Streamlit)
+
+Sobre `dashboard.db` corre un dashboard en **Streamlit + Plotly** (carpeta `app/`):
+
+```bash
+# Tras correr el pipeline (que genera outputs/dashboard.db):
+streamlit run app/app.py
+```
+
+Páginas:
+
+| Página | Qué muestra |
+|--------|-------------|
+| **Resumen** | Métricas del torneo, top goleadores y xG vs goles por equipo. |
+| **📊 KPIs** | Rankings de equipos y jugadores con filtros (equipo, minutos mínimos, métrica). |
+| **🎯 Mapa de tiros** | Scatter **interactivo**: pasás el mouse por un tiro y ves jugador, minuto, xG y desenlace. Filtros por equipo / jugador / tipo / solo goles. |
+| **🔍 Scouting** | Comparador de dos jugadores por **radar de percentiles** dentro de su posición. |
+| **🏃 Físico y xG** | Monitor de **ACWR** por jugador con alertas, y validación del modelo de xG vs StatsBomb. |
+
+> El mapa de tiros usa hover de Plotly: **identificar quién ejecutó cada tiro** se
+> hace pasando el cursor por el punto, sin tocar código.
+
+---
+
 ## 📁 Estructura del repositorio
 
 ```
@@ -295,6 +319,11 @@ futbol-analytics/
 │   │   └── acwr.py           # carga simulada + ACWR + alertas
 │   └── dashboard/
 │       └── build_dashboard_db.py  # consolida todo en dashboard.db
+├── app/                      # dashboard web (Streamlit)
+│   ├── app.py                # página de inicio / resumen
+│   ├── utils.py              # conexión a la base + caché
+│   ├── charts.py             # figuras Plotly (mapa de tiros, radar, ACWR…)
+│   └── pages/                # KPIs, mapa de tiros, scouting, físico/xG
 ├── outputs/
 │   ├── futbol.db             # base del pipeline      (ignorada por git)
 │   ├── dashboard.db          # base para dashboard web (ignorada por git)
