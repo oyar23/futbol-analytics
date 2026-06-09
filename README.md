@@ -9,6 +9,15 @@ modelado en una base relacional, cálculo de KPIs, un modelo de **goles esperado
 > Proyecto de portfolio orientado a roles de **Analista de Datos / BI** en el
 > ámbito deportivo. Todo el código es reproducible end-to-end con un solo comando.
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+![SQLite](https://img.shields.io/badge/SQLite-DB-green)
+![StatsBomb](https://img.shields.io/badge/data-StatsBomb%20Open-red)
+
+**Dataset procesado (Mundial 2022):** 64 partidos · 234.637 eventos · 1.494 tiros
+· 829 jugadores · 32 equipos. El pipeline completo corre en **~35 segundos** con
+los datos cacheados.
+
 ---
 
 ## 🎯 Objetivos
@@ -52,15 +61,42 @@ source venv/bin/activate
 # 2. Instalar dependencias
 pip install -r requirements.txt
 
-# 3. Ejecutar el pipeline completo (idempotente)
+# 3. Ejecutar el pipeline completo (idempotente; usa la caché de datos)
 python run_pipeline.py
+
+# Forzar la re-descarga de los datos de StatsBomb:
+python run_pipeline.py --force
 ```
+
+> La primera ejecución descarga los 128 archivos JSON de StatsBomb (eventos +
+> alineaciones de 64 partidos) y los cachea en `data/raw/`. Las siguientes
+> ejecuciones reutilizan esa caché.
 
 ---
 
-## 📦 Estado del proyecto
+## 🧩 Arquitectura del pipeline
 
-Este README se irá completando a medida que se construyen los módulos:
+El flujo es un pipeline lineal e idempotente orquestado por `run_pipeline.py`:
+
+```
+StatsBomb Open Data (JSON)
+        │  extract.py  (descarga + caché en data/raw/)
+        ▼
+   transform.py  (aplana eventos → tablas; geometría y freeze frame de tiros)
+        │
+        ▼
+   load.py + schema.sql  →  SQLite (outputs/futbol.db)
+        │
+        ├──► kpis.py       → KPIs equipo/jugador  → CSV + Excel (Power BI)
+        ├──► xg_model.py   → modelo de xG          → joblib + CSV
+        ├──► scouting.py   → percentiles + radares → CSV + PNG
+        └──► acwr.py       → carga simulada + ACWR → CSV + PNG
+```
+
+Cada módulo es ejecutable por separado (`python -m src.<paquete>.<modulo>`) o todo
+junto con `python run_pipeline.py`.
+
+### Módulos
 
 - [x] **Módulo 1** — Scaffolding + Git
 - [x] **Módulo 2** — ETL multifuente (StatsBomb → SQLite)
@@ -68,7 +104,7 @@ Este README se irá completando a medida que se construyen los módulos:
 - [x] **Módulo 4** — Modelo de goles esperados (xG)
 - [x] **Módulo 5** — Scouting (percentiles + radares)
 - [x] **Módulo 6** — Carga física y ACWR
-- [ ] **Módulo 7** — Orquestación + README final
+- [x] **Módulo 7** — Orquestación + README final
 
 ---
 
@@ -188,18 +224,52 @@ ejemplo en `outputs/figures/`:
 
 ```
 futbol-analytics/
-├── config.py                 # rutas, IDs de competición, constantes
-├── run_pipeline.py           # orquesta ETL → DB → KPIs → exports end-to-end
-├── data/                     # JSON crudos e intermedios (ignorados por git)
+├── config.py                 # rutas, IDs de competición, constantes StatsBomb
+├── run_pipeline.py           # orquesta ETL → DB → KPIs → modelo → scouting → físico
+├── requirements.txt
+├── data/                     # (ignorado por git)
+│   ├── raw/                  # JSON descargados de StatsBomb (caché)
+│   └── processed/            # intermedios
 ├── src/
-│   ├── etl/                  # extract, transform, load
-│   ├── db/                   # schema.sql
-│   ├── kpis/                 # KPIs en SQL
-│   ├── models/               # modelo de xG
-│   ├── scouting/             # percentiles + radares
-│   └── physical/             # ACWR y alertas
+│   ├── etl/
+│   │   ├── extract.py        # descarga matches/events/lineups con caché y reintentos
+│   │   ├── transform.py      # aplana JSON → tablas; geometría + freeze frame de tiros
+│   │   └── load.py           # carga a SQLite + resumen
+│   ├── db/
+│   │   └── schema.sql        # DDL (tablas, claves, índices)
+│   ├── kpis/
+│   │   └── kpis.py           # KPIs equipo/jugador (vistas SQL) + exports BI
+│   ├── models/
+│   │   └── xg_model.py       # modelo de xG (LogReg vs GradientBoosting)
+│   ├── scouting/
+│   │   └── scouting.py       # percentiles por posición + radares
+│   └── physical/
+│       └── acwr.py           # carga simulada + ACWR + alertas
 ├── outputs/
-│   ├── exports/              # CSV/Excel para BI (versionados)
-│   └── figures/              # gráficos (versionados)
-└── notebooks/                # exploración
+│   ├── futbol.db             # base SQLite (ignorada por git)
+│   ├── exports/              # CSV/Excel para BI  (versionados ✔)
+│   └── figures/              # radares y gráficos (versionados ✔)
+└── notebooks/                # exploración (opcional)
 ```
+
+---
+
+## 🗃️ Esquema de la base de datos
+
+| Tabla | Filas | Descripción |
+|-------|------:|-------------|
+| `matches` | 64 | Un registro por partido |
+| `teams` | 32 | Equipos participantes |
+| `players` | 829 | Jugadores |
+| `lineups` | 3.244 | Participación por partido (minutos, titularidad) |
+| `events` | 234.637 | Eventos (tipo, equipo, jugador, x/y, presión, flags de pase) |
+| `shots` | 1.494 | Tabla derivada con todas las features de tiro y `statsbomb_xg` |
+
+---
+
+## ✍️ Convenciones
+
+- Código y *docstrings* en **inglés**; comentarios y documentación en **español**.
+- *Conventional Commits* (`feat`, `chore`, `docs`, …) por módulo.
+- Datos crudos y base de datos **fuera de git** (`.gitignore`); los exports y
+  figuras pequeñas **sí se versionan** para que el repo se vea completo.
