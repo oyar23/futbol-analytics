@@ -1,0 +1,228 @@
+/* ===========================================================================
+   Tema Qatar 2022 — granate + dorado
+   =========================================================================== */
+:root {
+  --maroon: #7a1230;
+  --maroon-700: #8a1538;
+  --maroon-900: #5a0d23;
+  --gold: #c8a23c;
+  --gold-light: #e3ca7e;
+  --cream: #fbf6ee;
+  --cream-2: #f3ebdc;
+  --ink: #2a181e;
+  --muted: #7c6a70;
+  --card: #ffffff;
+  --line: #ece2d2;
+  --ok: #2e7d4f;
+  --warn: #e08a1e;
+  --danger: #c5283d;
+  --radius: 14px;
+  --shadow: 0 6px 22px rgba(90, 13, 35, 0.08);
+  --maxw: 1180px;
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif;
+  color: var(--ink);
+  background: var(--cream);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.app { display: flex; flex-direction: column; min-height: 100%; }
+.main { flex: 1; }
+
+.container {
+  width: 100%;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 22px;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: linear-gradient(100deg, var(--maroon-900), var(--maroon-700));
+  border-bottom: 3px solid var(--gold);
+  color: #fff;
+}
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 10px 22px;
+}
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand-text { line-height: 1.1; }
+.brand-title { font-weight: 800; font-size: 1.02rem; letter-spacing: .3px; }
+.brand-sub { font-size: .72rem; color: var(--gold-light); letter-spacing: .5px; text-transform: uppercase; }
+
+.nav-links { display: flex; gap: 4px; margin-left: 8px; flex-wrap: wrap; }
+.nav-link {
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: .92rem;
+  font-weight: 600;
+  color: #f3e7d8;
+  transition: background .15s, color .15s;
+}
+.nav-link:hover { background: rgba(255, 255, 255, 0.12); }
+.nav-link.active { background: var(--gold); color: var(--maroon-900); }
+
+.nav-author {
+  margin-left: auto;
+  text-align: right;
+  line-height: 1.15;
+  padding-left: 12px;
+  border-left: 1px solid rgba(255, 255, 255, 0.18);
+}
+.nav-author .name { font-weight: 700; font-size: .95rem; }
+.nav-author .role { font-size: .72rem; color: var(--gold-light); }
+
+/* ---------- Hero ---------- */
+.hero {
+  background:
+    radial-gradient(1200px 400px at 80% -10%, rgba(200, 162, 60, 0.18), transparent),
+    linear-gradient(120deg, var(--maroon-900), var(--maroon-700) 60%, var(--maroon) 100%);
+  color: #fff;
+  padding: 56px 0 64px;
+  border-bottom: 3px solid var(--gold);
+}
+.hero h1 { font-size: 2.5rem; margin: 0 0 6px; line-height: 1.1; }
+.hero h1 .accent { color: var(--gold-light); }
+.hero .lead { font-size: 1.1rem; color: #f0e3d4; max-width: 720px; margin: 14px 0 26px; }
+.hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 11px 20px; border-radius: 999px; font-weight: 700; font-size: .95rem;
+  cursor: pointer; border: 2px solid transparent; transition: transform .12s, background .15s;
+}
+.btn:hover { transform: translateY(-1px); }
+.btn-gold { background: var(--gold); color: var(--maroon-900); }
+.btn-ghost { background: transparent; border-color: var(--gold-light); color: #fff; }
+
+.hero-stats {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px;
+  margin-top: 34px;
+}
+.hero-stat {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(227, 202, 126, 0.35);
+  border-radius: var(--radius); padding: 14px 16px;
+}
+.hero-stat .num { font-size: 1.7rem; font-weight: 800; color: var(--gold-light); }
+.hero-stat .lbl { font-size: .82rem; color: #eaddcd; }
+
+/* ---------- Secciones / cards ---------- */
+.section { padding: 36px 0; }
+.section-head { margin: 0 0 18px; }
+.section-head h2 { margin: 0; font-size: 1.5rem; }
+.section-head p { margin: 6px 0 0; color: var(--muted); }
+
+.grid { display: grid; gap: 18px; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 18px;
+}
+.card h3 { margin: 0 0 12px; font-size: 1.05rem; }
+
+.feature {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 18px; box-shadow: var(--shadow);
+}
+.feature .ico { font-size: 1.6rem; }
+.feature h3 { margin: 8px 0 6px; font-size: 1.05rem; color: var(--maroon-700); }
+.feature p { margin: 0; color: var(--muted); font-size: .92rem; }
+
+.stat-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 16px 18px; box-shadow: var(--shadow);
+}
+.stat-card .num { font-size: 1.8rem; font-weight: 800; color: var(--maroon-700); }
+.stat-card .lbl { color: var(--muted); font-size: .85rem; }
+
+/* ---------- Controles ---------- */
+.controls { display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-end; margin-bottom: 18px; }
+.field { display: flex; flex-direction: column; gap: 5px; }
+.field label { font-size: .8rem; color: var(--muted); font-weight: 600; }
+select, input[type='range'] {
+  font: inherit; padding: 8px 10px; border: 1px solid var(--line);
+  border-radius: 10px; background: #fff; color: var(--ink); min-width: 170px;
+}
+.check { display: flex; align-items: center; gap: 8px; font-size: .9rem; }
+
+.tabs { display: flex; gap: 8px; margin-bottom: 18px; }
+.tab {
+  padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line);
+  background: #fff; font-weight: 600; cursor: pointer; color: var(--ink);
+}
+.tab.active { background: var(--maroon-700); color: #fff; border-color: var(--maroon-700); }
+
+/* ---------- Tablas ---------- */
+.table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--line); }
+table.data { width: 100%; border-collapse: collapse; font-size: .9rem; background: #fff; }
+table.data th, table.data td { padding: 9px 12px; text-align: left; white-space: nowrap; }
+table.data thead th { background: var(--cream-2); color: var(--maroon-900); font-weight: 700; position: sticky; top: 0; }
+table.data tbody tr:nth-child(even) { background: #fbf8f2; }
+table.data td.num, table.data th.num { text-align: right; }
+
+.badge { padding: 3px 9px; border-radius: 999px; font-size: .78rem; font-weight: 700; }
+.badge.ok { background: #e3f3e8; color: var(--ok); }
+.badge.warn { background: #fcefd9; color: var(--warn); }
+.badge.danger { background: #fbe1e4; color: var(--danger); }
+.badge.muted { background: #efe9df; color: var(--muted); }
+
+.note {
+  background: #fcf3e0; border: 1px solid var(--gold-light); border-left: 4px solid var(--gold);
+  border-radius: 10px; padding: 12px 14px; color: #6a5326; font-size: .9rem;
+}
+
+/* ---------- Loader / estados ---------- */
+.loader { padding: 60px 0; text-align: center; color: var(--muted); }
+.spinner {
+  width: 34px; height: 34px; border: 4px solid var(--cream-2);
+  border-top-color: var(--maroon-700); border-radius: 50%;
+  animation: spin .9s linear infinite; margin: 0 auto 12px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.tooltip-box {
+  background: #fff; border: 1px solid var(--line); border-radius: 10px;
+  padding: 8px 11px; box-shadow: var(--shadow); font-size: .85rem;
+}
+.tooltip-box .t-name { font-weight: 800; color: var(--maroon-700); }
+.tooltip-box .t-row { color: var(--muted); }
+
+/* ---------- Footer ---------- */
+.footer {
+  background: var(--maroon-900); color: #f0e3d4; margin-top: 30px;
+  border-top: 3px solid var(--gold); padding: 22px 0;
+}
+.footer-inner { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: center; }
+.footer a { color: var(--gold-light); font-weight: 600; }
+
+/* ---------- Responsive ---------- */
+@media (max-width: 900px) {
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); }
+  .hero h1 { font-size: 2rem; }
+  .nav-author { display: none; }
+}

@@ -15,7 +15,7 @@ import argparse
 import time
 
 import config
-from src.dashboard import build_dashboard_db
+from src.dashboard import build_dashboard_db, export_json
 from src.etl import extract, load, transform
 from src.kpis import kpis
 from src.models import xg_model
@@ -56,6 +56,11 @@ def run_dashboard_db() -> None:
     build_dashboard_db.run()
 
 
+def run_export_json() -> None:
+    """Paso 7: exporta los datos a JSON para el frontend React (web/)."""
+    export_json.run()
+
+
 def _print_outputs() -> None:
     """Lista los archivos generados en outputs/ al finalizar."""
     print("\n" + "=" * 60)
@@ -90,6 +95,7 @@ def main(force: bool = False) -> None:
         ("Scouting (percentiles + radares)", run_scouting),
         ("Carga física simulada (ACWR)", run_physical),
         ("BD consolidada para dashboard web", run_dashboard_db),
+        ("Export JSON para frontend React", run_export_json),
     ]
 
     t0 = time.perf_counter()

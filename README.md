@@ -292,6 +292,35 @@ Páginas:
 
 ---
 
+## 🎨 Dashboard a medida en React (Qatar 2022)
+
+Además del dashboard de Streamlit, hay un **frontend propio en React + Vite**
+(carpeta `web/`) con identidad visual del Mundial Qatar 2022 (granate + dorado),
+navbar con autor, hero explicativo y gráficos interactivos con **Recharts**.
+
+Es **100 % estático**: consume archivos JSON exportados desde la base, así que se
+deploya **gratis** en Vercel / Netlify / GitHub Pages (sin servidor).
+
+```bash
+# 1) Generar los JSON desde la base (paso del pipeline)
+python -m src.dashboard.export_json     # → web/public/data/*.json
+
+# 2) Levantar el frontend en desarrollo
+cd web
+npm install
+npm run dev                              # http://localhost:5173
+
+# 3) Build de producción (genera web/dist/ listo para deploy)
+npm run build
+```
+
+Páginas: **Inicio** (hero + features + resumen), **KPIs**, **Mapa de tiros**
+(hover con jugador/minuto/xG), **Scouting** (radar de percentiles) y
+**Físico & xG** (ACWR + validación del modelo). El `export_json.py` está integrado
+como último paso de `python run_pipeline.py`.
+
+---
+
 ## 📁 Estructura del repositorio
 
 ```
@@ -324,6 +353,11 @@ futbol-analytics/
 │   ├── utils.py              # conexión a la base + caché
 │   ├── charts.py             # figuras Plotly (mapa de tiros, radar, ACWR…)
 │   └── pages/                # KPIs, mapa de tiros, scouting, físico/xG
+├── web/                      # dashboard a medida (React + Vite)
+│   ├── src/
+│   │   ├── components/       # Navbar, Hero, Emblem, UI, Footer
+│   │   └── pages/            # Home, Kpis, ShotMap, Scouting, Physical
+│   └── public/data/          # JSON exportado desde la base (versionado ✔)
 ├── outputs/
 │   ├── futbol.db             # base del pipeline      (ignorada por git)
 │   ├── dashboard.db          # base para dashboard web (ignorada por git)
