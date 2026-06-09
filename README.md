@@ -90,8 +90,14 @@ StatsBomb Open Data (JSON)
         ├──► kpis.py       → KPIs equipo/jugador  → CSV + Excel (Power BI)
         ├──► xg_model.py   → modelo de xG          → joblib + CSV
         ├──► scouting.py   → percentiles + radares → CSV + PNG
-        └──► acwr.py       → carga simulada + ACWR → CSV + PNG
+        ├──► acwr.py       → carga simulada + ACWR → CSV + PNG
+        │
+        └──► build_dashboard_db.py
+                 → consolida TODO en outputs/dashboard.db (web dashboard)
 ```
+
+> **Exploración:** los notebooks de EDA en `notebooks/` analizan el dataset y el
+> modelo de xG sobre la base ya construida.
 
 Cada módulo es ejecutable por separado (`python -m src.<paquete>.<modulo>`) o todo
 junto con `python run_pipeline.py`.
@@ -220,6 +226,48 @@ ejemplo en `outputs/figures/`:
 
 ---
 
+## 📓 Notebooks de EDA
+
+En `notebooks/` hay dos notebooks de análisis exploratorio (ya ejecutados, con
+los gráficos embebidos), que trabajan sobre la base generada por el pipeline:
+
+| Notebook | Contenido |
+|----------|-----------|
+| `01_eda_general.ipynb` | Panorama del dataset, goles por partido y fase, equipos (xG vs goles reales), goleadores, minutos y líderes de xG/90. |
+| `02_eda_tiros_xg.ipynb` | Desenlaces y tipos de tiro, **mapa de tiros**, drivers de conversión (distancia / parte del cuerpo / presión), geometría y comparación de nuestro xG vs StatsBomb. |
+
+Para abrirlos: `jupyter notebook` (o VS Code) tras correr el pipeline.
+
+---
+
+## 🌐 Base de datos para dashboard web
+
+`src/dashboard/build_dashboard_db.py` consolida **todos los datos recopilados y
+derivados** en una única base SQLite **`outputs/dashboard.db`**, con las tablas
+ya materializadas e indexadas para que una app web las consulte sin recalcular:
+
+| Tabla | Descripción |
+|-------|-------------|
+| `matches`, `teams`, `players`, `lineups`, `events`, `shots` | Datos base del torneo |
+| `team_kpis`, `player_kpis` | KPIs agregados de equipo y jugador |
+| `scouting_percentiles` | Percentiles por posición |
+| `xg_predictions` | xG predicho por tiro (modelo propio vs StatsBomb) |
+| `acwr_series`, `acwr_alerts` | Serie de carga/ACWR y alertas de riesgo |
+
+Se genera en el último paso de `python run_pipeline.py`. Al ser una base SQLite
+autocontenida, se conecta fácil desde **Streamlit, Dash, Flask/FastAPI** o
+cualquier frontend. Ejemplo de consulta:
+
+```python
+import sqlite3, pandas as pd
+conn = sqlite3.connect("outputs/dashboard.db")
+top = pd.read_sql_query(
+    "SELECT player_name, goals, xg, xg_per_90 FROM player_kpis "
+    "ORDER BY goals DESC LIMIT 10", conn)
+```
+
+---
+
 ## 📁 Estructura del repositorio
 
 ```
@@ -243,13 +291,18 @@ futbol-analytics/
 │   │   └── xg_model.py       # modelo de xG (LogReg vs GradientBoosting)
 │   ├── scouting/
 │   │   └── scouting.py       # percentiles por posición + radares
-│   └── physical/
-│       └── acwr.py           # carga simulada + ACWR + alertas
+│   ├── physical/
+│   │   └── acwr.py           # carga simulada + ACWR + alertas
+│   └── dashboard/
+│       └── build_dashboard_db.py  # consolida todo en dashboard.db
 ├── outputs/
-│   ├── futbol.db             # base SQLite (ignorada por git)
+│   ├── futbol.db             # base del pipeline      (ignorada por git)
+│   ├── dashboard.db          # base para dashboard web (ignorada por git)
 │   ├── exports/              # CSV/Excel para BI  (versionados ✔)
 │   └── figures/              # radares y gráficos (versionados ✔)
-└── notebooks/                # exploración (opcional)
+└── notebooks/
+    ├── 01_eda_general.ipynb  # EDA: partidos, equipos, jugadores
+    └── 02_eda_tiros_xg.ipynb # EDA: tiros y modelo de xG
 ```
 
 ---

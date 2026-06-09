@@ -3,7 +3,7 @@
 Ejecuta todo el flujo con un solo comando, de forma idempotente
 (no re-descarga los datos crudos si ya están cacheados en ``data/raw/``):
 
-    ETL → SQLite → KPIs → modelo xG → scouting → carga física → exports
+    ETL → SQLite → KPIs → modelo xG → scouting → carga física → BD dashboard
 
 Uso:
     python run_pipeline.py            # ejecuta todo (usa caché de datos)
@@ -15,6 +15,7 @@ import argparse
 import time
 
 import config
+from src.dashboard import build_dashboard_db
 from src.etl import extract, load, transform
 from src.kpis import kpis
 from src.models import xg_model
@@ -50,12 +51,20 @@ def run_physical() -> None:
     acwr.run()
 
 
+def run_dashboard_db() -> None:
+    """Paso 6: consolida todo en una base lista para un dashboard web."""
+    build_dashboard_db.run()
+
+
 def _print_outputs() -> None:
     """Lista los archivos generados en outputs/ al finalizar."""
     print("\n" + "=" * 60)
     print("ARCHIVOS GENERADOS")
     print("=" * 60)
-    print(f"  Base de datos : {config.DB_PATH.relative_to(config.BASE_DIR)}")
+    print(f"  Base pipeline : {config.DB_PATH.relative_to(config.BASE_DIR)}")
+    dash_db = config.OUTPUTS_DIR / "dashboard.db"
+    if dash_db.exists():
+        print(f"  Base dashboard: {dash_db.relative_to(config.BASE_DIR)}")
     for sub in ("exports", "figures"):
         folder = config.OUTPUTS_DIR / sub
         files = sorted(p.name for p in folder.glob("*") if p.name != ".gitkeep")
@@ -80,6 +89,7 @@ def main(force: bool = False) -> None:
         ("Modelo de xG", run_xg_model),
         ("Scouting (percentiles + radares)", run_scouting),
         ("Carga física simulada (ACWR)", run_physical),
+        ("BD consolidada para dashboard web", run_dashboard_db),
     ]
 
     t0 = time.perf_counter()
