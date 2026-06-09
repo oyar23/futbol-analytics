@@ -9,9 +9,12 @@ modelado en una base relacional, cálculo de KPIs, un modelo de **goles esperado
 > Proyecto de portfolio orientado a roles de **Analista de Datos / BI** en el
 > ámbito deportivo. Todo el código es reproducible end-to-end con un solo comando.
 
+### 🌐 [Ver el dashboard en vivo →](https://oyar23.github.io/futbol-analytics/)
+
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![SQLite](https://img.shields.io/badge/SQLite-DB-green)
+![React](https://img.shields.io/badge/React-Vite-61dafb)
 ![StatsBomb](https://img.shields.io/badge/data-StatsBomb%20Open-red)
 
 **Dataset procesado (Mundial 2022):** 64 partidos · 234.637 eventos · 1.494 tiros
@@ -318,6 +321,15 @@ Páginas: **Inicio** (hero + features + resumen), **KPIs**, **Mapa de tiros**
 (hover con jugador/minuto/xG), **Scouting** (radar de percentiles) y
 **Físico & xG** (ACWR + validación del modelo). El `export_json.py` está integrado
 como último paso de `python run_pipeline.py`.
+
+**Deploy (GitHub Pages):** el sitio está publicado en
+[oyar23.github.io/futbol-analytics](https://oyar23.github.io/futbol-analytics/).
+Para volver a publicar tras un cambio:
+
+```bash
+cd web
+npm run deploy     # build + push de dist/ a la rama gh-pages
+```
 
 ---
 
