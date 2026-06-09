@@ -13,6 +13,15 @@ Nota: los módulos se van conectando aquí a medida que se construyen.
 
 
 import config  # noqa: F401  (reconfigura stdout a UTF-8 en Windows)
+from src.etl import extract, load, transform
+
+
+def run_etl(*, force: bool = False) -> None:
+    """Paso 1: ETL completo (extract → transform → load → resumen)."""
+    raw = extract.extract_all(force=force)
+    tables = transform.transform_all(raw)
+    load.load_tables(tables)
+    load.print_summary()
 
 
 def main() -> None:
@@ -20,13 +29,14 @@ def main() -> None:
     print("=" * 60)
     print("⚽  FÚTBOL ANALYTICS — PIPELINE")
     print("=" * 60)
-    # Los pasos se irán agregando módulo a módulo:
     # 1. ETL (extract → transform → load)
+    run_etl()
+    # Próximos módulos (se irán conectando):
     # 2. KPIs
     # 3. Modelo de xG
     # 4. Scouting
     # 5. Carga física (ACWR)
-    print("Scaffolding inicial listo. Ejecutá los módulos a medida que se agregan.")
+    print("\n✔ Pipeline finalizado.")
 
 
 if __name__ == "__main__":
